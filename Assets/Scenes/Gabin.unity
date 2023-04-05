@@ -382,11 +382,7 @@ GameObject:
   - component: {fileID: 778236805}
   - component: {fileID: 778236804}
   m_Layer: 0
-<<<<<<< Updated upstream
   m_Name: level 3
-=======
-  m_Name: Terrain
->>>>>>> Stashed changes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
