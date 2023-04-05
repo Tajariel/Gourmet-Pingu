@@ -103,19 +103,16 @@ public class CharacterController : MonoBehaviour
         if(collision.tag == "Ground")
         {
             didihitground = true;
-            losestate.transform.position = gameObject.transform.position;
+        
             
             Destroy(gameObject);
-            cam.SetActive(false);
             loseui.SetActive(true);
         }
         if(collision.tag == "Rock")
         {
             didihitground = true;
-            losestate.transform.position = gameObject.transform.position;
             
             Destroy(gameObject);
-            cam.SetActive(false);
             loseui.SetActive(true);
         }
     }
