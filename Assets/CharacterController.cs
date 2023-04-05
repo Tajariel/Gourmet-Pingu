@@ -14,7 +14,7 @@ public class CharacterController : MonoBehaviour
     public float backwardrotspeed= -1f;
     public bool didihitground = false;
     public float jumpforce = 10f;
-    public GameObject default;
+    public GameObject normal;
     public GameObject Jump_crouch;
     public GameObject Jump_standing;
     public float boostspeed;
@@ -25,7 +25,7 @@ public class CharacterController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        default.SetActive(true);
+        normal.SetActive(true);
         Jump_crouch.SetActive(false);
         Jump_standing.SetActive(false);
     }
@@ -47,7 +47,7 @@ public class CharacterController : MonoBehaviour
     {
         if(isgrounded)
         {
-            default.SetActive(true);
+            normal.SetActive(true);
             Jump_crouch.SetActive(false);
             Jump_standing.SetActive(false);
         }
@@ -60,7 +60,7 @@ public class CharacterController : MonoBehaviour
             if(isgrounded==false)
             {
                 rb.AddTorque(rotationspeed*rotationspeed, ForceMode.Force);
-                default.SetActive(false);
+                normal.SetActive(false);
                 Jump_crouch.SetActive(true);
                 Jump_standing.SetActive(false);
             }
@@ -73,7 +73,7 @@ public class CharacterController : MonoBehaviour
         {
             if(isgrounded==false)
             {
-                default.SetActive(false);
+                normal.SetActive(false);
                 Jump_crouch.SetActive(false);
                 Jump_standing.SetActive(true);
             }
@@ -90,7 +90,7 @@ public class CharacterController : MonoBehaviour
     public void OnCollisionEnter()
     {
         isgrounded=true;
-        default.SetActive(true);
+        normal.SetActive(true);
         Jump_crouch.SetActive(false);
         Jump_standing.SetActive(false);
     }
