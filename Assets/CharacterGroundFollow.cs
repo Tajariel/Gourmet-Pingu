@@ -9,6 +9,7 @@ public class CharacterGroundFollow : MonoBehaviour
     public Rigidbody rb;
     public LayerMask lm;
     public float floordistance;
+    [SerializeField] private float minimiumSpeed = 0.000005f;
 
     // Start is called before the first frame update
     void Start()
@@ -24,7 +25,12 @@ public class CharacterGroundFollow : MonoBehaviour
             Debug.Log(hit.point);
             transform.up = hit.normal;
             //transform.rotation = Quaternion.LookRotation(Vector3.Cross(transform.right, hit.normal));
+            if (rb.velocity.magnitude < minimiumSpeed)
+            {
+                rb.velocity = rb.velocity.normalized * minimiumSpeed;
+            }
         }
+        
     }
 }  
 
