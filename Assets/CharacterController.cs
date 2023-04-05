@@ -18,7 +18,6 @@ public class CharacterController : MonoBehaviour
     public GameObject Jump_crouch;
     public GameObject Jump_standing;
     public float boostspeed;
-    public GameObject losestate;
     public GameObject loseui;
 
 
@@ -105,19 +104,19 @@ public class CharacterController : MonoBehaviour
         {
             didihitground = true;
             losestate.transform.position = gameObject.transform.position;
-            Instansiate(losestate);
+            
             Destroy(gameObject);
             cam.SetActive(false);
-            looseui.SetActive(true);
+            loseui.SetActive(true);
         }
         if(collision.tag == "Rock")
         {
             didihitground = true;
             losestate.transform.position = gameObject.transform.position;
-            Instansiate(losestate);
+            
             Destroy(gameObject);
             cam.SetActive(false);
-            looseui.SetActive(true);
+            loseui.SetActive(true);
         }
     }
 }
