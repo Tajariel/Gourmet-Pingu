@@ -58,7 +58,7 @@ public class CharacterController : MonoBehaviour
         {
             if(isgrounded==false)
             {
-                rb.AddTorque(rotationspeed*rotationspeed, ForceMode.Force);
+                rb.AddTorque(transform.up*rotationspeed, ForceMode.Force);
                 normal.SetActive(false);
                 Jump_crouch.SetActive(true);
                 Jump_standing.SetActive(false);
@@ -81,7 +81,7 @@ public class CharacterController : MonoBehaviour
         {
             if(isgrounded==false)
             {
-                rb.AddTorque(backwardrotspeed*1*Time.fixedDeltaTime*100f, ForceMode.Force);
+                rb.AddTorque(transform.up*1*Time.fixedDeltaTime*100f, ForceMode.Force);
             }
         }
     }
