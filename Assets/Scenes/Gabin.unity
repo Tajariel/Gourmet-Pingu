@@ -131,10 +131,17 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
+<<<<<<< Updated upstream:Assets/Scenes/Gabin.unity
   - component: {fileID: 314789389}
   - component: {fileID: 314789388}
   - component: {fileID: 314789387}
   - component: {fileID: 314789390}
+=======
+  - component: {fileID: 289334662}
+  - component: {fileID: 289334661}
+  - component: {fileID: 289334660}
+  - component: {fileID: 289334663}
+>>>>>>> Stashed changes:Assets/Scenes/Alex_Lab/Alex_Lab.unity
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -216,13 +223,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< Updated upstream:Assets/Scenes/Gabin.unity
 --- !u!114 &314789390
+=======
+--- !u!114 &289334663
+>>>>>>> Stashed changes:Assets/Scenes/Alex_Lab/Alex_Lab.unity
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< Updated upstream:Assets/Scenes/Gabin.unity
   m_GameObject: {fileID: 314789386}
+=======
+  m_GameObject: {fileID: 289334659}
+>>>>>>> Stashed changes:Assets/Scenes/Alex_Lab/Alex_Lab.unity
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
@@ -252,7 +267,10 @@ MonoBehaviour:
   m_RequiresDepthTexture: 0
   m_RequiresColorTexture: 0
   m_Version: 2
+<<<<<<< Updated upstream:Assets/Scenes/Gabin.unity
 --- !u!1 &747210928
+=======
+--- !u!1 &414575646
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -260,9 +278,100 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
+  - component: {fileID: 414575648}
+  - component: {fileID: 414575647}
+  m_Layer: 0
+  m_Name: Illustration_sans_titre 2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!212 &414575647
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 414575646}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 4aa9c2803b34d7347ac0507e8016ea02, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 20.48, y: 20.48}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!4 &414575648
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 414575646}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 42.0798, y: 214.5, z: 5.9}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &458446535
+>>>>>>> Stashed changes:Assets/Scenes/Alex_Lab/Alex_Lab.unity
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+<<<<<<< Updated upstream:Assets/Scenes/Gabin.unity
   - component: {fileID: 747210930}
   - component: {fileID: 747210929}
   - component: {fileID: 747210931}
+=======
+  - component: {fileID: 458446537}
+  - component: {fileID: 458446536}
+  - component: {fileID: 458446538}
+>>>>>>> Stashed changes:Assets/Scenes/Alex_Lab/Alex_Lab.unity
   m_Layer: 0
   m_Name: Directional Light
   m_TagString: Untagged
@@ -347,13 +456,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+<<<<<<< Updated upstream:Assets/Scenes/Gabin.unity
 --- !u!114 &747210931
+=======
+--- !u!114 &458446538
+>>>>>>> Stashed changes:Assets/Scenes/Alex_Lab/Alex_Lab.unity
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< Updated upstream:Assets/Scenes/Gabin.unity
   m_GameObject: {fileID: 747210928}
+=======
+  m_GameObject: {fileID: 458446535}
+>>>>>>> Stashed changes:Assets/Scenes/Alex_Lab/Alex_Lab.unity
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
@@ -370,7 +487,11 @@ MonoBehaviour:
   m_LightCookieSize: {x: 1, y: 1}
   m_LightCookieOffset: {x: 0, y: 0}
   m_SoftShadowQuality: 1
+<<<<<<< Updated upstream:Assets/Scenes/Gabin.unity
 --- !u!1 &778236803
+=======
+--- !u!1 &868553262
+>>>>>>> Stashed changes:Assets/Scenes/Alex_Lab/Alex_Lab.unity
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -378,23 +499,39 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
+<<<<<<< Updated upstream:Assets/Scenes/Gabin.unity
   - component: {fileID: 778236806}
   - component: {fileID: 778236805}
   - component: {fileID: 778236804}
   m_Layer: 0
   m_Name: level 3
+=======
+  - component: {fileID: 868553265}
+  - component: {fileID: 868553264}
+  - component: {fileID: 868553263}
+  m_Layer: 0
+  m_Name: Terrain
+>>>>>>> Stashed changes:Assets/Scenes/Alex_Lab/Alex_Lab.unity
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
   m_IsActive: 1
+<<<<<<< Updated upstream:Assets/Scenes/Gabin.unity
 --- !u!154 &778236804
+=======
+--- !u!154 &868553263
+>>>>>>> Stashed changes:Assets/Scenes/Alex_Lab/Alex_Lab.unity
 TerrainCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< Updated upstream:Assets/Scenes/Gabin.unity
   m_GameObject: {fileID: 778236803}
+=======
+  m_GameObject: {fileID: 868553262}
+>>>>>>> Stashed changes:Assets/Scenes/Alex_Lab/Alex_Lab.unity
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -406,18 +543,31 @@ TerrainCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 2
+<<<<<<< Updated upstream:Assets/Scenes/Gabin.unity
   m_TerrainData: {fileID: 15600000, guid: 1b2658b5104a1c74a9228e937a2a2ca6, type: 2}
   m_EnableTreeColliders: 1
 --- !u!218 &778236805
+=======
+  m_TerrainData: {fileID: 15600000, guid: 207cc5e339d1bb645815ee8354851786, type: 2}
+  m_EnableTreeColliders: 1
+--- !u!218 &868553264
+>>>>>>> Stashed changes:Assets/Scenes/Alex_Lab/Alex_Lab.unity
 Terrain:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< Updated upstream:Assets/Scenes/Gabin.unity
   m_GameObject: {fileID: 778236803}
   m_Enabled: 1
   serializedVersion: 6
   m_TerrainData: {fileID: 15600000, guid: 1b2658b5104a1c74a9228e937a2a2ca6, type: 2}
+=======
+  m_GameObject: {fileID: 868553262}
+  m_Enabled: 1
+  serializedVersion: 6
+  m_TerrainData: {fileID: 15600000, guid: 207cc5e339d1bb645815ee8354851786, type: 2}
+>>>>>>> Stashed changes:Assets/Scenes/Alex_Lab/Alex_Lab.unity
   m_TreeDistance: 5000
   m_TreeBillboardDistance: 50
   m_TreeCrossFadeLength: 5
@@ -446,16 +596,27 @@ Terrain:
   m_AllowAutoConnect: 1
   m_EnableHeightmapRayTracing: 1
   m_EnableTreesAndDetailsRayTracing: 0
+<<<<<<< Updated upstream:Assets/Scenes/Gabin.unity
 --- !u!4 &778236806
+=======
+--- !u!4 &868553265
+>>>>>>> Stashed changes:Assets/Scenes/Alex_Lab/Alex_Lab.unity
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< Updated upstream:Assets/Scenes/Gabin.unity
   m_GameObject: {fileID: 778236803}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+=======
+  m_GameObject: {fileID: 868553262}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.001, y: 0.001, z: 0.001}
+>>>>>>> Stashed changes:Assets/Scenes/Alex_Lab/Alex_Lab.unity
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
