@@ -10,6 +10,7 @@ public class CharacterGroundFollow : MonoBehaviour
     public LayerMask lm;
     public float floordistance;
     [SerializeField] private float minimiumSpeed = 0.000005f;
+    [SerializeField] private float rotationspeed = 1f;
 
     // Start is called before the first frame update
     void Start()
@@ -34,7 +35,7 @@ public class CharacterGroundFollow : MonoBehaviour
         {
             if (Input.GetButton("Jump"))
             {
-
+                transform.Rotate(0f,0f,rotationspeed,Space.Self);
             }
         }
         
