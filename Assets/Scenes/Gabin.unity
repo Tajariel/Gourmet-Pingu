@@ -504,6 +504,7 @@ GameObject:
   - component: {fileID: 778236805}
   - component: {fileID: 778236804}
   m_Layer: 0
+<<<<<<< HEAD
   m_Name: level 3
 =======
   - component: {fileID: 868553265}
@@ -512,6 +513,9 @@ GameObject:
   m_Layer: 0
   m_Name: Terrain
 >>>>>>> Stashed changes:Assets/Scenes/Alex_Lab/Alex_Lab.unity
+=======
+  m_Name: Terrain
+>>>>>>> parent of 44c8935 (Merge branch 'main' of https://github.com/Tajariel/Gourmet-Pingu)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
