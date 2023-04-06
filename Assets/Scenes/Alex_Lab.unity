@@ -130,7 +130,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh29302
+  m_Name: pb_Mesh29290
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -312,11 +312,14 @@ GameObject:
   - component: {fileID: 289334662}
   - component: {fileID: 289334661}
   - component: {fileID: 289334660}
+<<<<<<< HEAD:Assets/Scenes/Alex_Lab/Alex_Lab.unity
   - component: {fileID: 289334663}
 <<<<<<< Updated upstream
 =======
 >>>>>>> Stashed changes:Assets/Scenes/Alex_Lab/Alex_Lab.unity
 >>>>>>> Stashed changes
+=======
+>>>>>>> parent of 44c8935 (Merge branch 'main' of https://github.com/Tajariel/Gourmet-Pingu):Assets/Scenes/Alex_Lab.unity
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -420,6 +423,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD:Assets/Scenes/Alex_Lab/Alex_Lab.unity
 <<<<<<< Updated upstream
 --- !u!114 &289334663
 =======
@@ -562,6 +566,8 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> parent of 44c8935 (Merge branch 'main' of https://github.com/Tajariel/Gourmet-Pingu):Assets/Scenes/Alex_Lab.unity
 --- !u!1 &458446535
 <<<<<<< Updated upstream
 =======
@@ -728,6 +734,7 @@ MonoBehaviour:
   m_LightCookieSize: {x: 1, y: 1}
   m_LightCookieOffset: {x: 0, y: 0}
   m_SoftShadowQuality: 1
+<<<<<<< HEAD:Assets/Scenes/Alex_Lab/Alex_Lab.unity
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream:Assets/Scenes/Alex_Lab.unity
 --- !u!1 &514977765
@@ -738,6 +745,9 @@ MonoBehaviour:
 =======
 --- !u!1 &868553262
 >>>>>>> Stashed changes:Assets/Scenes/Alex_Lab/Alex_Lab.unity
+=======
+--- !u!1 &514977765
+>>>>>>> parent of 44c8935 (Merge branch 'main' of https://github.com/Tajariel/Gourmet-Pingu):Assets/Scenes/Alex_Lab.unity
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -745,8 +755,11 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
+<<<<<<< HEAD:Assets/Scenes/Alex_Lab/Alex_Lab.unity
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream:Assets/Scenes/Alex_Lab.unity
+=======
+>>>>>>> parent of 44c8935 (Merge branch 'main' of https://github.com/Tajariel/Gourmet-Pingu):Assets/Scenes/Alex_Lab.unity
   - component: {fileID: 514977767}
   - component: {fileID: 514977766}
   m_Layer: 0
@@ -805,7 +818,7 @@ SpriteRenderer:
   m_Size: {x: 40.96, y: 17.14}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &514977767
@@ -2386,7 +2399,7 @@ Transform:
 <<<<<<< Updated upstream
   m_GameObject: {fileID: 803340486}
   m_LocalRotation: {x: -0, y: 1, z: -0, w: 0}
-  m_LocalPosition: {x: 1970.7, y: 97, z: 27.2}
+  m_LocalPosition: {x: 1570.7, y: 68.4, z: 27.2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2496,11 +2509,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 3675121746495691658, guid: 8349f10e101863f4da968c140fac0d47,
-        type: 3}
-      propertyPath: minimiumSpeed
-      value: 4
-      objectReference: {fileID: 0}
     - target: {fileID: 3675121746495691661, guid: 8349f10e101863f4da968c140fac0d47,
         type: 3}
       propertyPath: m_RootOrder
@@ -2509,12 +2517,12 @@ PrefabInstance:
     - target: {fileID: 3675121746495691661, guid: 8349f10e101863f4da968c140fac0d47,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1977.7
+      value: 1588.4
       objectReference: {fileID: 0}
     - target: {fileID: 3675121746495691661, guid: 8349f10e101863f4da968c140fac0d47,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 91.2
+      value: 51.68
       objectReference: {fileID: 0}
     - target: {fileID: 3675121746495691661, guid: 8349f10e101863f4da968c140fac0d47,
         type: 3}
@@ -2701,97 +2709,13 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1154904667
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1154904669}
-  - component: {fileID: 1154904668}
-  m_Layer: 0
-  m_Name: Illustration_sans_titre-157
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!212 &1154904668
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1154904667}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 00e6616393f67b14997c1715d2613a8b, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 40.96, y: 17.14}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
---- !u!4 &1154904669
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1154904667}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1314, y: 92.761116, z: -599}
-  m_LocalScale: {x: 50, y: 50, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 11
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!43 &1175190532
 Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh29274
+  m_Name: pb_Mesh29262
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -2963,33 +2887,18 @@ GameObject:
   - component: {fileID: 1312428107}
   m_Layer: 3
   m_Name: Terrain v2
-=======
-  - component: {fileID: 868553265}
-  - component: {fileID: 868553264}
-  - component: {fileID: 868553263}
-  m_Layer: 0
-  m_Name: Terrain
->>>>>>> Stashed changes:Assets/Scenes/Alex_Lab/Alex_Lab.unity
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
   m_IsActive: 1
-<<<<<<< Updated upstream:Assets/Scenes/Alex_Lab.unity
 --- !u!154 &1312428107
-=======
---- !u!154 &868553263
->>>>>>> Stashed changes:Assets/Scenes/Alex_Lab/Alex_Lab.unity
 TerrainCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< Updated upstream:Assets/Scenes/Alex_Lab.unity
   m_GameObject: {fileID: 1312428106}
-=======
-  m_GameObject: {fileID: 868553262}
->>>>>>> Stashed changes:Assets/Scenes/Alex_Lab/Alex_Lab.unity
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -3001,31 +2910,18 @@ TerrainCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 2
-<<<<<<< Updated upstream:Assets/Scenes/Alex_Lab.unity
   m_TerrainData: {fileID: 15600000, guid: 03096a088c2b7fc45b3833589b8b88f3, type: 2}
   m_EnableTreeColliders: 1
 --- !u!218 &1312428108
-=======
-  m_TerrainData: {fileID: 15600000, guid: 207cc5e339d1bb645815ee8354851786, type: 2}
-  m_EnableTreeColliders: 1
---- !u!218 &868553264
->>>>>>> Stashed changes:Assets/Scenes/Alex_Lab/Alex_Lab.unity
 Terrain:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< Updated upstream:Assets/Scenes/Alex_Lab.unity
   m_GameObject: {fileID: 1312428106}
   m_Enabled: 1
   serializedVersion: 6
   m_TerrainData: {fileID: 15600000, guid: 03096a088c2b7fc45b3833589b8b88f3, type: 2}
-=======
-  m_GameObject: {fileID: 868553262}
-  m_Enabled: 1
-  serializedVersion: 6
-  m_TerrainData: {fileID: 15600000, guid: 207cc5e339d1bb645815ee8354851786, type: 2}
->>>>>>> Stashed changes:Assets/Scenes/Alex_Lab/Alex_Lab.unity
   m_TreeDistance: 5000
   m_TreeBillboardDistance: 50
   m_TreeCrossFadeLength: 5
@@ -3054,17 +2950,12 @@ Terrain:
   m_AllowAutoConnect: 1
   m_EnableHeightmapRayTracing: 1
   m_EnableTreesAndDetailsRayTracing: 0
-<<<<<<< Updated upstream:Assets/Scenes/Alex_Lab.unity
 --- !u!4 &1312428109
-=======
---- !u!4 &868553265
->>>>>>> Stashed changes:Assets/Scenes/Alex_Lab/Alex_Lab.unity
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< Updated upstream:Assets/Scenes/Alex_Lab.unity
   m_GameObject: {fileID: 1312428106}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 998, y: 0, z: 0}
@@ -7394,7 +7285,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh29226
+  m_Name: pb_Mesh29206
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -7559,7 +7450,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh29288
+  m_Name: pb_Mesh29276
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -7718,6 +7609,7 @@ Mesh:
     offset: 0
     size: 0
     path: 
+<<<<<<< HEAD:Assets/Scenes/Alex_Lab/Alex_Lab.unity
 =======
   m_GameObject: {fileID: 868553262}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
@@ -7745,3 +7637,5 @@ Mesh:
 >>>>>>> Stashed changes:Assets/Scenes/Alex_Lab/Alex_Lab.unity
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> parent of 44c8935 (Merge branch 'main' of https://github.com/Tajariel/Gourmet-Pingu):Assets/Scenes/Alex_Lab.unity
