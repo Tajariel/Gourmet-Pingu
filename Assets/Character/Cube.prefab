@@ -151,3 +151,4 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 8
   floordistance: 0.5
+  minimiumSpeed: 4
