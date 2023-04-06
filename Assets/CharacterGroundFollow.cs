@@ -30,6 +30,13 @@ public class CharacterGroundFollow : MonoBehaviour
                 rb.velocity = rb.velocity.normalized * minimiumSpeed;
             }
         }
+        else
+        {
+            if (Input.GetButton("Jump"))
+            {
+
+            }
+        }
         
     }
 }  
