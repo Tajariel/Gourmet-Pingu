@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 9045930447889440353}
   - component: {fileID: 4667288991883123292}
   - component: {fileID: 6841680255120562099}
+  - component: {fileID: 3708073934084596333}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -224,3 +225,42 @@ MonoBehaviour:
   boostcounter: 0
   rotationspeed: 1
   playerInput: {fileID: 4667288991883123292}
+--- !u!114 &3708073934084596333
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9045930447889440367}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07e880264144f8c4889d3d95275b1ad4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  jumpInputName: Horizontal
+  jumpForce: {x: 0, y: 700, z: 0}
+  coyoteTimeDuration: 0.25
+  jumpLayerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  jumpEndYVelocity: 1
+  fallGravityMultiplier: 3
+  lowJumpGravityMultiplier: 3
+  jumpAmount: 1
+  airJumpForce: {x: 0, y: 7, z: 0}
+  resetVelocityOnAirJump: 0
+  useCollisionCheck: 1
+  collisionOffset: {x: 0, y: 0.4, z: 0}
+  collisionCheckRadius: 0.5
+  jumpFX: {fileID: 0}
+  airJumpFX: {fileID: 0}
+  fxOffset: {x: 0, y: 0, z: 0}
+  timeBeforeDestroyFX: 3
+  animator: {fileID: 0}
+  jumpTriggerName: jump
+  airJumpTriggerName: jump
+  currentJumpAmount: 0
+  isBeingBumped: 0
+  characterHeight: 1.2
+  displayDebugInfo: 1
+  inputChoiceIndex: 0
