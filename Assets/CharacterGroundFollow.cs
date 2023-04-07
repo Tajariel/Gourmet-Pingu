@@ -45,12 +45,15 @@ public class CharacterGroundFollow : MonoBehaviour
             }
 
             //transform.rotation = Quaternion.LookRotation(Vector3.Cross(transform.right, hit.normal));
-            if (rb.velocity.magnitude < minimiumSpeed)
+            Vector3 currentXvelocity = rb.velocity;
+            currentXvelocity.y = 0;
+            if (currentXvelocity.magnitude < minimiumSpeed)
             {
-                rb.velocity = rb.velocity.normalized * minimiumSpeed;
+                currentXvelocity = currentXvelocity.normalized * minimiumSpeed;
+                currentXvelocity.y = rb.velocity.y;
+                rb.velocity = currentXvelocity;
             }
         }
-        
     }
 }  
 
