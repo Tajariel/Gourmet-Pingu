@@ -10,8 +10,6 @@ public class CharacterGroundFollow : MonoBehaviour
     public LayerMask lm;
     public float floordistance;
     [SerializeField] private float minimiumSpeed = 0.000005f;
-    [SerializeField] private float rotationspeed = 1f;
-    private int boostcounter;
 
     // Start is called before the first frame update
     void Start()
@@ -47,32 +45,15 @@ public class CharacterGroundFollow : MonoBehaviour
             }
 
             //transform.rotation = Quaternion.LookRotation(Vector3.Cross(transform.right, hit.normal));
-            if (rb.velocity.magnitude < minimiumSpeed)
+            Vector3 currentXvelocity = rb.velocity;
+            currentXvelocity.y = 0;
+            if (currentXvelocity.magnitude < minimiumSpeed)
             {
-                rb.velocity = rb.velocity.normalized * minimiumSpeed;
+                currentXvelocity = currentXvelocity.normalized * minimiumSpeed;
+                currentXvelocity.y = rb.velocity.y;
+                rb.velocity = currentXvelocity;
             }
         }
-        else
-        {
-            if (Input.GetButton("Jump"))
-            {
-                //Debug.Log(boostcounter);
-                bool backfliplimiter=false;
-                transform.Rotate(0f,0f,rotationspeed,Space.Self);
-                if(transform.rotation.z >= -120 && transform.rotation.y <= -110 && backfliplimiter == false)
-                {
-                    backfliplimiter = true;
-                    boostcounter += 1;
-                    Debug.Log(boostcounter);
-                }
-                if (transform.rotation.z >= 0 && backfliplimiter == true)
-                {
-                    backfliplimiter = false;
-                    Debug.Log(boostcounter);
-                }
-            }
-        }
-        
     }
 }  
 
