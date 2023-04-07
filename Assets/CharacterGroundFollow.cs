@@ -21,10 +21,21 @@ public class CharacterGroundFollow : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Physics.SphereCast(transform.position, 0.5f, -(transform.up), out hit, floordistance, lm)) 
+        if (Physics.SphereCast(transform.position-transform.right, 0.5f, -(transform.up), out hit, floordistance, lm)) 
         {
+            Vector3 normal1 = hit.normal;
+            if(Physics.SphereCast(transform.position+transform.right, 0.5f, -(transform.up), out hit, floordistance, lm))
+            {
+                Vector3 normal2 = hit.normal;
+                Vector3 midnormal = (normal1 + normal2) / 2;
+                transform.up = midnormal;
+            }
+            else
+            {
+                transform.up = normal1;
+            }
             Debug.Log(hit.point);
-            transform.up = hit.normal;
+            
             //transform.rotation = Quaternion.LookRotation(Vector3.Cross(transform.right, hit.normal));
             if (rb.velocity.magnitude < minimiumSpeed)
             {
