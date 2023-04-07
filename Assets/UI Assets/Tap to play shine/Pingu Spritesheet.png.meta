@@ -1,0 +1,752 @@
+fileFormatVersion: 2
+guid: 46d70c4d5c4466d43810791749d23ff3
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 16
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 99
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: 50
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Pingu Spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1873
+        width: 611
+        height: 611
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a02aacf2405e7ec489a5be6fc1fa3f16
+      internalID: -1389294270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pingu Spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 1873
+        width: 611
+        height: 611
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baecf0fac3be40e43b010a72e7584635
+      internalID: 1662462346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pingu Spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 1242
+        y: 1873
+        width: 611
+        height: 611
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ef045b21d0886d40840328ea0c673c5
+      internalID: 901444969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pingu Spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 1863
+        y: 1873
+        width: 611
+        height: 611
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d00ebe65c1d2143419815bbc9c6dda13
+      internalID: 731557353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pingu Spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 2484
+        y: 1873
+        width: 611
+        height: 611
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc8741aceee2b6e418af3e026a970e86
+      internalID: 1516034868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pingu Spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 3105
+        y: 1873
+        width: 611
+        height: 611
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15c4580454f387746a4622d758faf988
+      internalID: 1564108355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pingu Spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 3726
+        y: 1873
+        width: 611
+        height: 611
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4e8a1f632ee25f4e9f722faeddd1389
+      internalID: -1998020238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pingu Spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1252
+        width: 611
+        height: 611
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3eb11f5000f9acb4f82a2db18c345453
+      internalID: 334899596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pingu Spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 1252
+        width: 611
+        height: 611
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e507bf1e7abed84a9cff2de08011793
+      internalID: 2065701868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pingu Spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 1242
+        y: 1252
+        width: 611
+        height: 611
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ce1a14914bcec54d973a2d8d11ae360
+      internalID: -440251612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pingu Spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 1863
+        y: 1252
+        width: 611
+        height: 611
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8ec14dba3314c045b7cb4e95333e1eb
+      internalID: -1014658774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pingu Spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 2484
+        y: 1252
+        width: 611
+        height: 611
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67cf43b32b110904d9efeb7bc31a0884
+      internalID: 1906012145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pingu Spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 3105
+        y: 1252
+        width: 611
+        height: 611
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61fce7f93b94ca1459e8d818b1b3a7f3
+      internalID: 277256247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pingu Spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 3726
+        y: 1252
+        width: 611
+        height: 611
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 137a1bcc4f194224c91285ee3c442b48
+      internalID: -199367914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pingu Spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 631
+        width: 611
+        height: 611
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dd80a1c2c2f0b444a10f96127fb4b82
+      internalID: 1014260292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pingu Spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 631
+        width: 611
+        height: 611
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5665a713236d4af4ab49f4a8cdfa5cd0
+      internalID: 543861173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pingu Spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 1242
+        y: 631
+        width: 611
+        height: 611
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c33385deb1091f4ab0473684a9a3f69
+      internalID: 1194816789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pingu Spritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 1863
+        y: 631
+        width: 611
+        height: 611
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f7f4a7cb783b5f45bb5da1e8009da7f
+      internalID: 493070333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pingu Spritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 2484
+        y: 631
+        width: 611
+        height: 611
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 196354727a2c3fd4ebb64f404d35c4f0
+      internalID: -1095458616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pingu Spritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 3105
+        y: 631
+        width: 611
+        height: 611
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dc679298ba8cfd4f888302cd68de0bf
+      internalID: 474669951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pingu Spritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 3726
+        y: 631
+        width: 611
+        height: 611
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff0b7b066e6ada84fa33f4f0a7749a12
+      internalID: -1121690916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pingu Spritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 10
+        width: 611
+        height: 611
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c52c9893006c1b47a95058ddd8e7bc3
+      internalID: -1764571068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pingu Spritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 10
+        width: 611
+        height: 611
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5c9b89203d7b1c44afa86f84af5e2af
+      internalID: 1551888697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pingu Spritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 1242
+        y: 10
+        width: 611
+        height: 611
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83fa653942f85be429d5fa4ace701580
+      internalID: 821055786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pingu Spritesheet_24
+      rect:
+        serializedVersion: 2
+        x: 1863
+        y: 10
+        width: 611
+        height: 611
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd2619072d78b644592c06f4cdfb5eed
+      internalID: 823130640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pingu Spritesheet_25
+      rect:
+        serializedVersion: 2
+        x: 2484
+        y: 10
+        width: 611
+        height: 611
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54f3c6b30101c7b44a202fa95917403f
+      internalID: -547070544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pingu Spritesheet_26
+      rect:
+        serializedVersion: 2
+        x: 3105
+        y: 10
+        width: 611
+        height: 611
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa288e8b81c36194382a4a50e820294e
+      internalID: -915737037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pingu Spritesheet_27
+      rect:
+        serializedVersion: 2
+        x: 3726
+        y: 10
+        width: 611
+        height: 611
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6dd0a645036d94409deb5f5a3ffa109
+      internalID: 1093417456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 7239e969851010746a2035c30dbc66a4
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Pingu Spritesheet_0: -1389294270
+      Pingu Spritesheet_2: 901444969
+      Pingu Spritesheet_1: 1662462346
+      Pingu Spritesheet_3: 731557353
+      Pingu Spritesheet_23: 821055786
+      Pingu Spritesheet_18: -1095458616
+      Pingu Spritesheet_6: -1998020238
+      Pingu Spritesheet_17: 493070333
+      Pingu Spritesheet_16: 1194816789
+      Pingu Spritesheet_25: -547070544
+      Pingu Spritesheet_22: 1551888697
+      Pingu Spritesheet_4: 1516034868
+      Pingu Spritesheet_10: -1014658774
+      Pingu Spritesheet_5: 1564108355
+      Pingu Spritesheet_19: 474669951
+      Pingu Spritesheet_20: -1121690916
+      Pingu Spritesheet_27: 1093417456
+      Pingu Spritesheet_12: 277256247
+      Pingu Spritesheet_15: 543861173
+      Pingu Spritesheet_8: 2065701868
+      Pingu Spritesheet_14: 1014260292
+      Pingu Spritesheet_11: 1906012145
+      Pingu Spritesheet_26: -915737037
+      Pingu Spritesheet_24: 823130640
+      Pingu Spritesheet_13: -199367914
+      Pingu Spritesheet_21: -1764571068
+      Pingu Spritesheet_9: -440251612
+      Pingu Spritesheet_7: 334899596
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

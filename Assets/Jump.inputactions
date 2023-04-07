@@ -13,6 +13,15 @@
                     "processors": "",
                     "interactions": "Press",
                     "initialStateCheck": false
+                },
+                {
+                    "name": "Backflip",
+                    "type": "Button",
+                    "id": "07d4bb3c-dc48-4477-aae2-bd227a61586d",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -35,6 +44,28 @@
                     "processors": "",
                     "groups": "",
                     "action": "Saut",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a060636e-6b6d-456f-8f07-e205f0cfa2b7",
+                    "path": "<Touchscreen>/Press",
+                    "interactions": "Hold",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Backflip",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c9a5ae32-c6c8-4ba8-bf8f-05813e86d22f",
+                    "path": "<Keyboard>/space",
+                    "interactions": "Hold",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Backflip",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
