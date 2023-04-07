@@ -1,0 +1,45 @@
+{
+    "name": "Jump",
+    "maps": [
+        {
+            "name": "Game",
+            "id": "1c66e85c-3689-4e1b-9d5e-42b683bd0d12",
+            "actions": [
+                {
+                    "name": "Saut",
+                    "type": "Button",
+                    "id": "a1d9c107-4343-47b3-9dda-46370021391b",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "126cdd84-d3f6-4a43-9c8d-89bacece7a96",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Saut",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d6aaa302-cf1f-4041-9247-a78122e12258",
+                    "path": "<Touchscreen>/Press",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Saut",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
