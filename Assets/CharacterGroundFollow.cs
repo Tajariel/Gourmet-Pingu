@@ -41,6 +41,10 @@ public class CharacterGroundFollow : MonoBehaviour
                 Vector3 midnormal = (normal1 + normal2) / 2;
                 transform.up = midnormal;
             }
+            else
+            {
+                transform.up = normal1;
+            }
 
             //transform.rotation = Quaternion.LookRotation(Vector3.Cross(transform.right, hit.normal));
             if (rb.velocity.magnitude < minimiumSpeed)
