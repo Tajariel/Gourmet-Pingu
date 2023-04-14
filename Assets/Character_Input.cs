@@ -10,7 +10,7 @@ public class Character_Input : MonoBehaviour
     [SerializeField] private Rigidbody rb;
     [SerializeField] private Vector3 jumpForce;
     [SerializeField] private int boostcounter;
-    [SerializeField] private float rotationspeed;
+    [SerializeField] private float rotationspeed = 0;
     [SerializeField] private PlayerInput playerInput;
 
     InputAction touchPositionAction;
@@ -43,19 +43,9 @@ public class Character_Input : MonoBehaviour
         if (touchPressAction.IsPressed())
         {
             Debug.Log("SPIN");
+            Debug.Log(rotationspeed);
             bool backfliplimiter = false;
             transform.Rotate(0f, 0f, rotationspeed, Space.Self);
-            if (transform.rotation.z >= -120 && transform.rotation.y <= -110 && backfliplimiter == false)
-            {
-                backfliplimiter = true;
-                boostcounter += 1;
-                Debug.Log(boostcounter);
-            }
-            if (transform.rotation.z >= 0 && backfliplimiter == true)
-            {
-                backfliplimiter = false;
-                Debug.Log(boostcounter);
-            }
         }
     }
 }
