@@ -14,6 +14,7 @@ public class Character_Input : MonoBehaviour
     [SerializeField] private PlayerInput playerInput;
     [SerializeField] private LayerMask floor;
     [SerializeField] private float floordist;
+    private RaycastHit hit;
 
     InputAction touchPositionAction;
     InputAction touchPressAction;
@@ -34,7 +35,7 @@ public class Character_Input : MonoBehaviour
 
     public void OnSaut(InputAction.CallbackContext context)
     {
-        if (Physics.SphereCast(transform.position, 0.5f, -(transform.up), out hit, floordistance, lm))
+        if (Physics.SphereCast(transform.position, 0.5f, -(transform.up), out hit, floordist, floor))
         {
             if (!rb) return;
             if (!context.performed) return;
