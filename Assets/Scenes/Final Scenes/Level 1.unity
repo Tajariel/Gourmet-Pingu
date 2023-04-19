@@ -1562,6 +1562,18 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!114 &334829530 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 796925234360593113, guid: ce5810458854f3b43aa605c6a3b45d65,
+    type: 3}
+  m_PrefabInstance: {fileID: 5003562624378077628}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &369447572
 GameObject:
   m_ObjectHideFlags: 0
@@ -1880,58 +1892,18 @@ Mesh:
     offset: 0
     size: 0
     path: 
---- !u!1 &499316799 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5003562622915202344, guid: ce5810458854f3b43aa605c6a3b45d65,
+--- !u!114 &675395312 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3437787426952637691, guid: ce5810458854f3b43aa605c6a3b45d65,
     type: 3}
   m_PrefabInstance: {fileID: 5003562624378077628}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &499316804
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 499316799}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e741851cba3ad425c91ecf922cc6b379, type: 3}
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _data:
-    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"Restart
-      Button","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.UI.Button,
-      UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Exit
-      Button","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.UI.Button,
-      UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Resume
-      Button","value":{"$content":2,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.UI.Button,
-      UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Pause
-      Menu","value":{"$content":3,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
-      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Pause
-      Button","value":{"$content":4,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.UI.Button,
-      UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
-    _objectReferences:
-    - {fileID: 1197916595}
-    - {fileID: 892414180}
-    - {fileID: 1607104582}
-    - {fileID: 1135183873}
-    - {fileID: 1913332754}
---- !u!114 &499316805
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 499316799}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _data:
-    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
-    _objectReferences:
-    - {fileID: 11400000, guid: 1a95029d7563eef40b6b4a3a40a4eb0f, type: 2}
 --- !u!1 &708022598
 GameObject:
   m_ObjectHideFlags: 0
@@ -2497,18 +2469,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &892414180 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 5003562622769893285, guid: ce5810458854f3b43aa605c6a3b45d65,
-    type: 3}
-  m_PrefabInstance: {fileID: 5003562624378077628}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &897360423
 GameObject:
   m_ObjectHideFlags: 0
@@ -2901,12 +2861,18 @@ MonoBehaviour:
   resourceCostOnUse: 1
   requireInput: 0
   inputName: Case Sensitive
---- !u!1 &1135183873 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5003562623829600353, guid: ce5810458854f3b43aa605c6a3b45d65,
+--- !u!114 &1079505328 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2731097108232130266, guid: ce5810458854f3b43aa605c6a3b45d65,
     type: 3}
   m_PrefabInstance: {fileID: 5003562624378077628}
   m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1152215252
 GameObject:
   m_ObjectHideFlags: 0
@@ -3179,18 +3145,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1169645303}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1197916595 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 5003562623104504098, guid: ce5810458854f3b43aa605c6a3b45d65,
-    type: 3}
-  m_PrefabInstance: {fileID: 5003562624378077628}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!43 &1216857732
 Mesh:
   m_ObjectHideFlags: 0
@@ -4383,18 +4337,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1607104582 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 5003562623175239963, guid: ce5810458854f3b43aa605c6a3b45d65,
-    type: 3}
-  m_PrefabInstance: {fileID: 5003562624378077628}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1615027162
 GameObject:
   m_ObjectHideFlags: 0
@@ -5246,18 +5188,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1913332754 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 5003562623611310650, guid: ce5810458854f3b43aa605c6a3b45d65,
-    type: 3}
-  m_PrefabInstance: {fileID: 5003562624378077628}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1935360002 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6254950599526632218, guid: ce5810458854f3b43aa605c6a3b45d65,
@@ -6328,6 +6258,91 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 499316804, guid: ce5810458854f3b43aa605c6a3b45d65, type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"Restart
+        Button","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.UI.Button,
+        UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Exit
+        Button","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.UI.Button,
+        UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Resume
+        Button","value":{"$content":2,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.UI.Button,
+        UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Pause
+        Menu","value":{"$content":3,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Pause
+        Button","value":{"$content":4,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.UI.Button,
+        UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Win
+        Exit","value":{"$content":5,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.UI.Button,
+        UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Win
+        Retry","value":{"$content":6,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.UI.Button,
+        UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Next
+        Level","value":{"$content":7,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.UI.Button,
+        UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Next
+        Scene","value":{"$content":"Level 2","$type":"System.String"},"typeHandle":{"Identification":"System.String,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 499316804, guid: ce5810458854f3b43aa605c6a3b45d65, type: 3}
+      propertyPath: _data._objectReferences.Array.size
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 499316804, guid: ce5810458854f3b43aa605c6a3b45d65, type: 3}
+      propertyPath: _data._objectReferences.Array.data[5]
+      value: 
+      objectReference: {fileID: 1079505328}
+    - target: {fileID: 499316804, guid: ce5810458854f3b43aa605c6a3b45d65, type: 3}
+      propertyPath: _data._objectReferences.Array.data[6]
+      value: 
+      objectReference: {fileID: 334829530}
+    - target: {fileID: 499316804, guid: ce5810458854f3b43aa605c6a3b45d65, type: 3}
+      propertyPath: _data._objectReferences.Array.data[7]
+      value: 
+      objectReference: {fileID: 675395312}
+    - target: {fileID: 3087548123981015894, guid: ce5810458854f3b43aa605c6a3b45d65,
+        type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: bca338fd43d17ee4799c68439cd367d7,
+        type: 2}
+    - target: {fileID: 3087548123981015894, guid: ce5810458854f3b43aa605c6a3b45d65,
+        type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: -8614262074480223003, guid: bca338fd43d17ee4799c68439cd367d7,
+        type: 2}
+    - target: {fileID: 4448644093896508551, guid: ce5810458854f3b43aa605c6a3b45d65,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.8535494
+      objectReference: {fileID: 0}
+    - target: {fileID: 4448644093896508551, guid: ce5810458854f3b43aa605c6a3b45d65,
+        type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.1935494
+      objectReference: {fileID: 0}
+    - target: {fileID: 4448644093896508551, guid: ce5810458854f3b43aa605c6a3b45d65,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0.44200003
+      objectReference: {fileID: 0}
+    - target: {fileID: 4448644093896508551, guid: ce5810458854f3b43aa605c6a3b45d65,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: -37
+      objectReference: {fileID: 0}
+    - target: {fileID: 4448644093896508551, guid: ce5810458854f3b43aa605c6a3b45d65,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4448644093896508551, guid: ce5810458854f3b43aa605c6a3b45d65,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 17.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4448644093896508551, guid: ce5810458854f3b43aa605c6a3b45d65,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 5003562622915202340, guid: ce5810458854f3b43aa605c6a3b45d65,
         type: 3}
       propertyPath: m_Pivot.x
@@ -6438,54 +6453,42 @@ PrefabInstance:
       propertyPath: m_Name
       value: UI
       objectReference: {fileID: 0}
-    - target: {fileID: 5003562623175239963, guid: ce5810458854f3b43aa605c6a3b45d65,
+    - target: {fileID: 5044536304448732692, guid: ce5810458854f3b43aa605c6a3b45d65,
         type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: bca338fd43d17ee4799c68439cd367d7,
+        type: 2}
+    - target: {fileID: 5044536304448732692, guid: ce5810458854f3b43aa605c6a3b45d65,
+        type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: -8614262074480223003, guid: bca338fd43d17ee4799c68439cd367d7,
+        type: 2}
+    - target: {fileID: 6254950599526632218, guid: ce5810458854f3b43aa605c6a3b45d65,
+        type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5003562623829600349, guid: ce5810458854f3b43aa605c6a3b45d65,
+    - target: {fileID: 6449321099313992472, guid: ce5810458854f3b43aa605c6a3b45d65,
         type: 3}
-      propertyPath: m_Enabled
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: bca338fd43d17ee4799c68439cd367d7,
+        type: 2}
+    - target: {fileID: 6449321099313992472, guid: ce5810458854f3b43aa605c6a3b45d65,
+        type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: -8614262074480223003, guid: bca338fd43d17ee4799c68439cd367d7,
+        type: 2}
+    - target: {fileID: 7791500379457032985, guid: ce5810458854f3b43aa605c6a3b45d65,
+        type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5003562623829600350, guid: ce5810458854f3b43aa605c6a3b45d65,
-        type: 3}
-      propertyPath: _data._json
-      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"Restart
-        Button","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.UI.Button,
-        UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Exit
-        Button","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.UI.Button,
-        UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Resume
-        Button","value":{"$content":2,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.UI.Button,
-        UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Pause
-        Menu","value":{"$content":3,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
-        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
-      objectReference: {fileID: 0}
-    - target: {fileID: 5003562623829600350, guid: ce5810458854f3b43aa605c6a3b45d65,
-        type: 3}
-      propertyPath: _data._objectReferences.Array.size
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 5003562623829600350, guid: ce5810458854f3b43aa605c6a3b45d65,
-        type: 3}
-      propertyPath: _data._objectReferences.Array.data[2]
-      value: 
-      objectReference: {fileID: 1607104582}
-    - target: {fileID: 5003562623829600350, guid: ce5810458854f3b43aa605c6a3b45d65,
-        type: 3}
-      propertyPath: _data._objectReferences.Array.data[3]
-      value: 
-      objectReference: {fileID: 1135183873}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 5003562622915202344, guid: ce5810458854f3b43aa605c6a3b45d65,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 499316805}
-    - targetCorrespondingSourceObject: {fileID: 5003562622915202344, guid: ce5810458854f3b43aa605c6a3b45d65,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 499316804}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ce5810458854f3b43aa605c6a3b45d65, type: 3}
