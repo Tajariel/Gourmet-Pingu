@@ -123,6 +123,12 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &27661559 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3484945069340959257, guid: 4553fc910f338134d98288b779c2dc06,
+    type: 3}
+  m_PrefabInstance: {fileID: 743633881}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &147152506
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -219,7 +225,15 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6795190333323493142, guid: fe9b8955b8fa347488a6745814838a14,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1455376720}
+    - targetCorrespondingSourceObject: {fileID: 6795190333323493142, guid: fe9b8955b8fa347488a6745814838a14,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1455376721}
   m_SourcePrefab: {fileID: 100100000, guid: fe9b8955b8fa347488a6745814838a14, type: 3}
 --- !u!4 &147152507 stripped
 Transform:
@@ -323,7 +337,15 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3462689907506538217, guid: 7a5ac8f81885ddc41a71cb176f44432c,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1646250970}
+    - targetCorrespondingSourceObject: {fileID: 3462689907506538217, guid: 7a5ac8f81885ddc41a71cb176f44432c,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1646250971}
   m_SourcePrefab: {fileID: 100100000, guid: 7a5ac8f81885ddc41a71cb176f44432c, type: 3}
 --- !u!4 &213673105 stripped
 Transform:
@@ -427,7 +449,15 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5643136325210203417, guid: a233e6682c0e31d4699c7daa2f4867b5,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2144565057}
+    - targetCorrespondingSourceObject: {fileID: 5643136325210203417, guid: a233e6682c0e31d4699c7daa2f4867b5,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2144565058}
   m_SourcePrefab: {fileID: 100100000, guid: a233e6682c0e31d4699c7daa2f4867b5, type: 3}
 --- !u!4 &249540282 stripped
 Transform:
@@ -452,6 +482,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Prism
+      objectReference: {fileID: 0}
+    - target: {fileID: 2688426692752638469, guid: 40e61009d18b3f04e9840f3cebf6aec8,
+        type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2688426692752638470, guid: 40e61009d18b3f04e9840f3cebf6aec8,
         type: 3}
@@ -531,7 +566,15 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 2688426692752638469, guid: 40e61009d18b3f04e9840f3cebf6aec8,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1125040230}
+    - targetCorrespondingSourceObject: {fileID: 2688426692752638469, guid: 40e61009d18b3f04e9840f3cebf6aec8,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1125040231}
   m_SourcePrefab: {fileID: 100100000, guid: 40e61009d18b3f04e9840f3cebf6aec8, type: 3}
 --- !u!4 &287975469 stripped
 Transform:
@@ -635,7 +678,15 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7125523725149299754, guid: 11dafb25e50b54546887a4de418ee2c5,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 625910029}
+    - targetCorrespondingSourceObject: {fileID: 7125523725149299754, guid: 11dafb25e50b54546887a4de418ee2c5,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 625910035}
   m_SourcePrefab: {fileID: 100100000, guid: 11dafb25e50b54546887a4de418ee2c5, type: 3}
 --- !u!4 &295741141 stripped
 Transform:
@@ -649,7 +700,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-2344644
+  m_Name: pb_Mesh-3464586
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -1022,7 +1073,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-2344350
+  m_Name: pb_Mesh-3464622
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -1292,6 +1343,66 @@ Transform:
   m_Father: {fileID: 369447575}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &625910028 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7125523725149299754, guid: 11dafb25e50b54546887a4de418ee2c5,
+    type: 3}
+  m_PrefabInstance: {fileID: 295741140}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &625910029
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 625910028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bc9a024b33494b4b8866cc61049da81, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameObjectsToEnable:
+  - {fileID: 927757782}
+  useTag: 1
+  tagName: Player
+  onlyOnce: 0
+  disableInstead: 1
+  displayDebugInfo: 0
+  revertOn: 4
+  revertAfterCooldown: 1
+  requireResources: 0
+  resourceManager: {fileID: 0}
+  resourceID: 
+  resourceCostOnUse: 1
+  requireInput: 0
+  inputName: Case Sensitive
+--- !u!114 &625910035
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 625910028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bc9a024b33494b4b8866cc61049da81, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameObjectsToEnable:
+  - {fileID: 1878487727}
+  useTag: 1
+  tagName: Player
+  onlyOnce: 0
+  disableInstead: 0
+  displayDebugInfo: 0
+  revertOn: 4
+  revertAfterCooldown: 1
+  requireResources: 0
+  resourceManager: {fileID: 0}
+  resourceID: 
+  resourceCostOnUse: 1
+  requireInput: 0
+  inputName: Case Sensitive
 --- !u!1001 &743633881
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1388,7 +1499,15 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3484945069340959257, guid: 4553fc910f338134d98288b779c2dc06,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 743633888}
+    - targetCorrespondingSourceObject: {fileID: 3484945069340959257, guid: 4553fc910f338134d98288b779c2dc06,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 743633889}
   m_SourcePrefab: {fileID: 100100000, guid: 4553fc910f338134d98288b779c2dc06, type: 3}
 --- !u!4 &743633882 stripped
 Transform:
@@ -1396,6 +1515,60 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 743633881}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &743633888
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 27661559}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bc9a024b33494b4b8866cc61049da81, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameObjectsToEnable:
+  - {fileID: 927757782}
+  useTag: 1
+  tagName: Player
+  onlyOnce: 0
+  disableInstead: 1
+  displayDebugInfo: 0
+  revertOn: 4
+  revertAfterCooldown: 1
+  requireResources: 0
+  resourceManager: {fileID: 0}
+  resourceID: 
+  resourceCostOnUse: 1
+  requireInput: 0
+  inputName: Case Sensitive
+--- !u!114 &743633889
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 27661559}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bc9a024b33494b4b8866cc61049da81, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameObjectsToEnable:
+  - {fileID: 1878487727}
+  useTag: 1
+  tagName: Player
+  onlyOnce: 0
+  disableInstead: 0
+  displayDebugInfo: 0
+  revertOn: 4
+  revertAfterCooldown: 1
+  requireResources: 0
+  resourceManager: {fileID: 0}
+  resourceID: 
+  resourceCostOnUse: 1
+  requireInput: 0
+  inputName: Case Sensitive
 --- !u!1 &744084022
 GameObject:
   m_ObjectHideFlags: 0
@@ -1405,7 +1578,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 744084023}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: LD
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1446,7 +1619,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-2344632
+  m_Name: pb_Mesh-3464794
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -1605,6 +1778,12 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!1 &850496136 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4427561282331909563, guid: 69d96e88e3df33c4788d82d90d782825,
+    type: 3}
+  m_PrefabInstance: {fileID: 2073857494}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &900222958
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1701,7 +1880,15 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 559592990549427051, guid: 1a76a12f4982cdd48821b7b2db9eebb3,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1315165106}
+    - targetCorrespondingSourceObject: {fileID: 559592990549427051, guid: 1a76a12f4982cdd48821b7b2db9eebb3,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1315165107}
   m_SourcePrefab: {fileID: 100100000, guid: 1a76a12f4982cdd48821b7b2db9eebb3, type: 3}
 --- !u!4 &900222959 stripped
 Transform:
@@ -1709,13 +1896,25 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 900222958}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &927757782 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5487911323186745025, guid: 798b84efcf9f0d3488fb12fe73d138b9,
+    type: 3}
+  m_PrefabInstance: {fileID: 1296037700}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &965971073 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 843616480539668854, guid: 1a757f844b164ea46b429dc1d64029d1,
+    type: 3}
+  m_PrefabInstance: {fileID: 2128070010}
+  m_PrefabAsset: {fileID: 0}
 --- !u!43 &980124101
 Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-2344374
+  m_Name: pb_Mesh-3464562
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -1874,6 +2073,66 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!1 &1125040224 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2688426692752638469, guid: 40e61009d18b3f04e9840f3cebf6aec8,
+    type: 3}
+  m_PrefabInstance: {fileID: 287975468}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1125040230
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1125040224}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bc9a024b33494b4b8866cc61049da81, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameObjectsToEnable:
+  - {fileID: 927757782}
+  useTag: 1
+  tagName: Player
+  onlyOnce: 0
+  disableInstead: 1
+  displayDebugInfo: 0
+  revertOn: 4
+  revertAfterCooldown: 1
+  requireResources: 0
+  resourceManager: {fileID: 0}
+  resourceID: 
+  resourceCostOnUse: 1
+  requireInput: 0
+  inputName: Case Sensitive
+--- !u!114 &1125040231
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1125040224}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bc9a024b33494b4b8866cc61049da81, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameObjectsToEnable:
+  - {fileID: 1878487727}
+  useTag: 1
+  tagName: Player
+  onlyOnce: 0
+  disableInstead: 0
+  displayDebugInfo: 0
+  revertOn: 4
+  revertAfterCooldown: 1
+  requireResources: 0
+  resourceManager: {fileID: 0}
+  resourceID: 
+  resourceCostOnUse: 1
+  requireInput: 0
+  inputName: Case Sensitive
 --- !u!1001 &1169645303
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1970,7 +2229,15 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 9199505044856203568, guid: 566dc06a85ccbae458cfa2ca23f2325c,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1499017999}
+    - targetCorrespondingSourceObject: {fileID: 9199505044856203568, guid: 566dc06a85ccbae458cfa2ca23f2325c,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1499018000}
   m_SourcePrefab: {fileID: 100100000, guid: 566dc06a85ccbae458cfa2ca23f2325c, type: 3}
 --- !u!4 &1169645304 stripped
 Transform:
@@ -1984,7 +2251,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-2344596
+  m_Name: pb_Mesh-3464292
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -2239,7 +2506,15 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 2968510282552286114, guid: ac1524bfae4361b4494f27ed79105936,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1462176918}
+    - targetCorrespondingSourceObject: {fileID: 2968510282552286114, guid: ac1524bfae4361b4494f27ed79105936,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1462176919}
   m_SourcePrefab: {fileID: 100100000, guid: ac1524bfae4361b4494f27ed79105936, type: 3}
 --- !u!4 &1284984423 stripped
 Transform:
@@ -2320,6 +2595,66 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 798b84efcf9f0d3488fb12fe73d138b9, type: 3}
+--- !u!1 &1315165100 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 559592990549427051, guid: 1a76a12f4982cdd48821b7b2db9eebb3,
+    type: 3}
+  m_PrefabInstance: {fileID: 900222958}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1315165106
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1315165100}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bc9a024b33494b4b8866cc61049da81, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameObjectsToEnable:
+  - {fileID: 927757782}
+  useTag: 1
+  tagName: Player
+  onlyOnce: 0
+  disableInstead: 1
+  displayDebugInfo: 0
+  revertOn: 4
+  revertAfterCooldown: 1
+  requireResources: 0
+  resourceManager: {fileID: 0}
+  resourceID: 
+  resourceCostOnUse: 1
+  requireInput: 0
+  inputName: Case Sensitive
+--- !u!114 &1315165107
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1315165100}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bc9a024b33494b4b8866cc61049da81, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameObjectsToEnable:
+  - {fileID: 1878487727}
+  useTag: 1
+  tagName: Player
+  onlyOnce: 0
+  disableInstead: 0
+  displayDebugInfo: 0
+  revertOn: 4
+  revertAfterCooldown: 1
+  requireResources: 0
+  resourceManager: {fileID: 0}
+  resourceID: 
+  resourceCostOnUse: 1
+  requireInput: 0
+  inputName: Case Sensitive
 --- !u!1 &1379354415
 GameObject:
   m_ObjectHideFlags: 0
@@ -2428,6 +2763,192 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1407152233 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7430495658070107241, guid: f4d1273d66e04064a9836caad9b49d2a,
+    type: 3}
+  m_PrefabInstance: {fileID: 1855296495}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1455376714 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6795190333323493142, guid: fe9b8955b8fa347488a6745814838a14,
+    type: 3}
+  m_PrefabInstance: {fileID: 147152506}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1455376720
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1455376714}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bc9a024b33494b4b8866cc61049da81, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameObjectsToEnable:
+  - {fileID: 927757782}
+  useTag: 1
+  tagName: Player
+  onlyOnce: 0
+  disableInstead: 1
+  displayDebugInfo: 0
+  revertOn: 4
+  revertAfterCooldown: 1
+  requireResources: 0
+  resourceManager: {fileID: 0}
+  resourceID: 
+  resourceCostOnUse: 1
+  requireInput: 0
+  inputName: Case Sensitive
+--- !u!114 &1455376721
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1455376714}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bc9a024b33494b4b8866cc61049da81, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameObjectsToEnable:
+  - {fileID: 1878487727}
+  useTag: 1
+  tagName: Player
+  onlyOnce: 0
+  disableInstead: 0
+  displayDebugInfo: 0
+  revertOn: 4
+  revertAfterCooldown: 1
+  requireResources: 0
+  resourceManager: {fileID: 0}
+  resourceID: 
+  resourceCostOnUse: 1
+  requireInput: 0
+  inputName: Case Sensitive
+--- !u!1 &1462176912 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2968510282552286114, guid: ac1524bfae4361b4494f27ed79105936,
+    type: 3}
+  m_PrefabInstance: {fileID: 1284984422}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1462176918
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1462176912}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bc9a024b33494b4b8866cc61049da81, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameObjectsToEnable:
+  - {fileID: 927757782}
+  useTag: 1
+  tagName: Player
+  onlyOnce: 0
+  disableInstead: 1
+  displayDebugInfo: 0
+  revertOn: 4
+  revertAfterCooldown: 1
+  requireResources: 0
+  resourceManager: {fileID: 0}
+  resourceID: 
+  resourceCostOnUse: 1
+  requireInput: 0
+  inputName: Case Sensitive
+--- !u!114 &1462176919
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1462176912}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bc9a024b33494b4b8866cc61049da81, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameObjectsToEnable:
+  - {fileID: 1878487727}
+  useTag: 1
+  tagName: Player
+  onlyOnce: 0
+  disableInstead: 0
+  displayDebugInfo: 0
+  revertOn: 4
+  revertAfterCooldown: 1
+  requireResources: 0
+  resourceManager: {fileID: 0}
+  resourceID: 
+  resourceCostOnUse: 1
+  requireInput: 0
+  inputName: Case Sensitive
+--- !u!1 &1499017993 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9199505044856203568, guid: 566dc06a85ccbae458cfa2ca23f2325c,
+    type: 3}
+  m_PrefabInstance: {fileID: 1169645303}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1499017999
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1499017993}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bc9a024b33494b4b8866cc61049da81, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameObjectsToEnable:
+  - {fileID: 927757782}
+  useTag: 1
+  tagName: Player
+  onlyOnce: 0
+  disableInstead: 1
+  displayDebugInfo: 0
+  revertOn: 4
+  revertAfterCooldown: 1
+  requireResources: 0
+  resourceManager: {fileID: 0}
+  resourceID: 
+  resourceCostOnUse: 1
+  requireInput: 0
+  inputName: Case Sensitive
+--- !u!114 &1499018000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1499017993}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bc9a024b33494b4b8866cc61049da81, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameObjectsToEnable:
+  - {fileID: 1878487727}
+  useTag: 1
+  tagName: Player
+  onlyOnce: 0
+  disableInstead: 0
+  displayDebugInfo: 0
+  revertOn: 4
+  revertAfterCooldown: 1
+  requireResources: 0
+  resourceManager: {fileID: 0}
+  resourceID: 
+  resourceCostOnUse: 1
+  requireInput: 0
+  inputName: Case Sensitive
 --- !u!1 &1574415442
 GameObject:
   m_ObjectHideFlags: 0
@@ -2552,7 +3073,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-2344552
+  m_Name: pb_Mesh-3464610
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -2711,13 +3232,73 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!1 &1646250964 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3462689907506538217, guid: 7a5ac8f81885ddc41a71cb176f44432c,
+    type: 3}
+  m_PrefabInstance: {fileID: 213673104}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1646250970
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1646250964}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bc9a024b33494b4b8866cc61049da81, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameObjectsToEnable:
+  - {fileID: 927757782}
+  useTag: 1
+  tagName: Player
+  onlyOnce: 0
+  disableInstead: 1
+  displayDebugInfo: 0
+  revertOn: 4
+  revertAfterCooldown: 1
+  requireResources: 0
+  resourceManager: {fileID: 0}
+  resourceID: 
+  resourceCostOnUse: 1
+  requireInput: 0
+  inputName: Case Sensitive
+--- !u!114 &1646250971
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1646250964}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bc9a024b33494b4b8866cc61049da81, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameObjectsToEnable:
+  - {fileID: 1878487727}
+  useTag: 1
+  tagName: Player
+  onlyOnce: 0
+  disableInstead: 0
+  displayDebugInfo: 0
+  revertOn: 4
+  revertAfterCooldown: 1
+  requireResources: 0
+  resourceManager: {fileID: 0}
+  resourceID: 
+  resourceCostOnUse: 1
+  requireInput: 0
+  inputName: Case Sensitive
 --- !u!43 &1696847607
 Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-2344362
+  m_Name: pb_Mesh-3464574
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -2882,7 +3463,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-2344620
+  m_Name: pb_Mesh-3464304
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -3047,7 +3628,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-2344656
+  m_Name: pb_Mesh-3464316
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -3302,13 +3883,81 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7430495658070107241, guid: f4d1273d66e04064a9836caad9b49d2a,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1855296502}
+    - targetCorrespondingSourceObject: {fileID: 7430495658070107241, guid: f4d1273d66e04064a9836caad9b49d2a,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1855296503}
   m_SourcePrefab: {fileID: 100100000, guid: f4d1273d66e04064a9836caad9b49d2a, type: 3}
 --- !u!4 &1855296496 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7430495658070107239, guid: f4d1273d66e04064a9836caad9b49d2a,
     type: 3}
   m_PrefabInstance: {fileID: 1855296495}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1855296502
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1407152233}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bc9a024b33494b4b8866cc61049da81, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameObjectsToEnable:
+  - {fileID: 927757782}
+  useTag: 1
+  tagName: Player
+  onlyOnce: 0
+  disableInstead: 1
+  displayDebugInfo: 0
+  revertOn: 4
+  revertAfterCooldown: 1
+  requireResources: 0
+  resourceManager: {fileID: 0}
+  resourceID: 
+  resourceCostOnUse: 1
+  requireInput: 0
+  inputName: Case Sensitive
+--- !u!114 &1855296503
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1407152233}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bc9a024b33494b4b8866cc61049da81, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameObjectsToEnable:
+  - {fileID: 1878487727}
+  useTag: 1
+  tagName: Player
+  onlyOnce: 0
+  disableInstead: 0
+  displayDebugInfo: 0
+  revertOn: 4
+  revertAfterCooldown: 1
+  requireResources: 0
+  resourceManager: {fileID: 0}
+  resourceID: 
+  resourceCostOnUse: 1
+  requireInput: 0
+  inputName: Case Sensitive
+--- !u!1 &1878487727 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1878487727, guid: ce5810458854f3b43aa605c6a3b45d65,
+    type: 3}
+  m_PrefabInstance: {fileID: 5003562624378077628}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1935360002 stripped
 GameObject:
@@ -3322,7 +3971,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-2344608
+  m_Name: pb_Mesh-3464280
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -3481,6 +4130,12 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!1 &2067712982 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1289694159876239708, guid: 80f13c191a10698448adc8f089b4f762,
+    type: 3}
+  m_PrefabInstance: {fileID: 2134598564}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2073857494
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3577,7 +4232,15 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4427561282331909563, guid: 69d96e88e3df33c4788d82d90d782825,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2073857501}
+    - targetCorrespondingSourceObject: {fileID: 4427561282331909563, guid: 69d96e88e3df33c4788d82d90d782825,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2073857502}
   m_SourcePrefab: {fileID: 100100000, guid: 69d96e88e3df33c4788d82d90d782825, type: 3}
 --- !u!4 &2073857495 stripped
 Transform:
@@ -3585,13 +4248,67 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 2073857494}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &2073857501
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 850496136}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bc9a024b33494b4b8866cc61049da81, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameObjectsToEnable:
+  - {fileID: 927757782}
+  useTag: 1
+  tagName: Player
+  onlyOnce: 0
+  disableInstead: 1
+  displayDebugInfo: 0
+  revertOn: 4
+  revertAfterCooldown: 1
+  requireResources: 0
+  resourceManager: {fileID: 0}
+  resourceID: 
+  resourceCostOnUse: 1
+  requireInput: 0
+  inputName: Case Sensitive
+--- !u!114 &2073857502
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 850496136}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bc9a024b33494b4b8866cc61049da81, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameObjectsToEnable:
+  - {fileID: 1878487727}
+  useTag: 1
+  tagName: Player
+  onlyOnce: 0
+  disableInstead: 0
+  displayDebugInfo: 0
+  revertOn: 4
+  revertAfterCooldown: 1
+  requireResources: 0
+  resourceManager: {fileID: 0}
+  resourceID: 
+  resourceCostOnUse: 1
+  requireInput: 0
+  inputName: Case Sensitive
 --- !u!43 &2087790457
 Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-2344398
+  m_Name: pb_Mesh-3464634
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -3846,7 +4563,15 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 843616480539668854, guid: 1a757f844b164ea46b429dc1d64029d1,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2128070017}
+    - targetCorrespondingSourceObject: {fileID: 843616480539668854, guid: 1a757f844b164ea46b429dc1d64029d1,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2128070018}
   m_SourcePrefab: {fileID: 100100000, guid: 1a757f844b164ea46b429dc1d64029d1, type: 3}
 --- !u!4 &2128070011 stripped
 Transform:
@@ -3854,6 +4579,60 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 2128070010}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &2128070017
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 965971073}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bc9a024b33494b4b8866cc61049da81, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameObjectsToEnable:
+  - {fileID: 927757782}
+  useTag: 1
+  tagName: Player
+  onlyOnce: 0
+  disableInstead: 1
+  displayDebugInfo: 0
+  revertOn: 4
+  revertAfterCooldown: 1
+  requireResources: 0
+  resourceManager: {fileID: 0}
+  resourceID: 
+  resourceCostOnUse: 1
+  requireInput: 0
+  inputName: Case Sensitive
+--- !u!114 &2128070018
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 965971073}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bc9a024b33494b4b8866cc61049da81, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameObjectsToEnable:
+  - {fileID: 1878487727}
+  useTag: 1
+  tagName: Player
+  onlyOnce: 0
+  disableInstead: 0
+  displayDebugInfo: 0
+  revertOn: 4
+  revertAfterCooldown: 1
+  requireResources: 0
+  resourceManager: {fileID: 0}
+  resourceID: 
+  resourceCostOnUse: 1
+  requireInput: 0
+  inputName: Case Sensitive
 --- !u!1001 &2134598564
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3950,7 +4729,15 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1289694159876239708, guid: 80f13c191a10698448adc8f089b4f762,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2134598571}
+    - targetCorrespondingSourceObject: {fileID: 1289694159876239708, guid: 80f13c191a10698448adc8f089b4f762,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2134598572}
   m_SourcePrefab: {fileID: 100100000, guid: 80f13c191a10698448adc8f089b4f762, type: 3}
 --- !u!4 &2134598565 stripped
 Transform:
@@ -3958,13 +4745,67 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 2134598564}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &2134598571
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2067712982}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bc9a024b33494b4b8866cc61049da81, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameObjectsToEnable:
+  - {fileID: 927757782}
+  useTag: 1
+  tagName: Player
+  onlyOnce: 0
+  disableInstead: 1
+  displayDebugInfo: 0
+  revertOn: 4
+  revertAfterCooldown: 1
+  requireResources: 0
+  resourceManager: {fileID: 0}
+  resourceID: 
+  resourceCostOnUse: 1
+  requireInput: 0
+  inputName: Case Sensitive
+--- !u!114 &2134598572
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2067712982}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bc9a024b33494b4b8866cc61049da81, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameObjectsToEnable:
+  - {fileID: 1878487727}
+  useTag: 1
+  tagName: Player
+  onlyOnce: 0
+  disableInstead: 0
+  displayDebugInfo: 0
+  revertOn: 4
+  revertAfterCooldown: 1
+  requireResources: 0
+  resourceManager: {fileID: 0}
+  resourceID: 
+  resourceCostOnUse: 1
+  requireInput: 0
+  inputName: Case Sensitive
 --- !u!43 &2134713182
 Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-2344386
+  m_Name: pb_Mesh-3464598
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -4129,7 +4970,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-2344584
+  m_Name: pb_Mesh-3464550
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -4288,6 +5129,66 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!1 &2144565051 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5643136325210203417, guid: a233e6682c0e31d4699c7daa2f4867b5,
+    type: 3}
+  m_PrefabInstance: {fileID: 249540281}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2144565057
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2144565051}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bc9a024b33494b4b8866cc61049da81, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameObjectsToEnable:
+  - {fileID: 927757782}
+  useTag: 1
+  tagName: Player
+  onlyOnce: 0
+  disableInstead: 1
+  displayDebugInfo: 0
+  revertOn: 4
+  revertAfterCooldown: 1
+  requireResources: 0
+  resourceManager: {fileID: 0}
+  resourceID: 
+  resourceCostOnUse: 1
+  requireInput: 0
+  inputName: Case Sensitive
+--- !u!114 &2144565058
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2144565051}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bc9a024b33494b4b8866cc61049da81, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameObjectsToEnable:
+  - {fileID: 1878487727}
+  useTag: 1
+  tagName: Player
+  onlyOnce: 0
+  disableInstead: 0
+  displayDebugInfo: 0
+  revertOn: 4
+  revertAfterCooldown: 1
+  requireResources: 0
+  resourceManager: {fileID: 0}
+  resourceID: 
+  resourceCostOnUse: 1
+  requireInput: 0
+  inputName: Case Sensitive
 --- !u!1001 &5003562624378077628
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4411,11 +5312,6 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 369447574}
-    - target: {fileID: 5003562622915202347, guid: ce5810458854f3b43aa605c6a3b45d65,
-        type: 3}
-      propertyPath: m_RenderMode
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
