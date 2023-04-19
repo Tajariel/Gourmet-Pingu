@@ -12,6 +12,8 @@ public class Character_Input : MonoBehaviour
     [SerializeField] private int boostcounter;
     [SerializeField] private float rotationspeed = 0;
     [SerializeField] private PlayerInput playerInput;
+    [SerializeField] private LayerMask floor;
+    [SerializeField] private float floordist;
 
     InputAction touchPositionAction;
     InputAction touchPressAction;
@@ -32,11 +34,14 @@ public class Character_Input : MonoBehaviour
 
     public void OnSaut(InputAction.CallbackContext context)
     {
+        if (Physics.SphereCast(transform.position, 0.5f, -(transform.up), out hit, floordistance, lm)
+        {
             if (!rb) return;
             if (!context.performed) return;
 
             rb.AddForce(jumpForce, ForceMode.Impulse);
             Debug.Log("JUMP !");
+        }
     }
     public void OnBackflip()
     {
