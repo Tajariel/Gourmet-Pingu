@@ -34,7 +34,7 @@ public class Character_Input : MonoBehaviour
 
     public void OnSaut(InputAction.CallbackContext context)
     {
-        if (Physics.SphereCast(transform.position, 0.5f, -(transform.up), out hit, floordistance, lm)
+        if (Physics.SphereCast(transform.position, 0.5f, -(transform.up), out hit, floordistance, lm))
         {
             if (!rb) return;
             if (!context.performed) return;
