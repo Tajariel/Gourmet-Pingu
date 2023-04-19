@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Final Scenes/Level 4.unity
     guid: 7b2538b2448795047ade1f1278d838cb
+  - enabled: 1
+    path: Assets/Scenes/Alex_lab new.unity
+    guid: 75f0368552a34df4dbf8de97d2a522f0
   m_configObjects: {}
