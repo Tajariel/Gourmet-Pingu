@@ -1372,7 +1372,7 @@ Transform:
   - {fileID: 1742724816}
   - {fileID: 2129827963}
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -27.973}
 --- !u!43 &423491671
 Mesh:
@@ -2868,54 +2868,6 @@ MonoBehaviour:
   resourceCostOnUse: 1
   requireInput: 0
   inputName: Case Sensitive
---- !u!1 &733313646
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 733313648}
-  - component: {fileID: 733313647}
-  m_Layer: 0
-  m_Name: GameObject
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &733313647
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 733313646}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bb3360a0dd684b64485e9540b735a2a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  score: 0
-  initialScore: 0
-  scoreTitle: 'Score : '
-  scoreText: {fileID: 0}
---- !u!4 &733313648
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 733313646}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -118.71768, y: -393.60236, z: 1383.8367}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 12
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &743117396
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3931,7 +3883,7 @@ PrefabInstance:
         UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Next
         Level","value":{"$content":7,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.UI.Button,
         UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Next
-        Scene","value":{"$content":"Level 2","$type":"System.String"},"typeHandle":{"Identification":"System.String,
+        Scene","value":{"$content":"Level 3","$type":"System.String"},"typeHandle":{"Identification":"System.String,
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Lose
         Retry","value":{"$content":8,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.UI.Button,
         UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Lose
@@ -3949,10 +3901,6 @@ PrefabInstance:
       propertyPath: _data._objectReferences.Array.data[10]
       value: 
       objectReference: {fileID: 1575128717}
-    - target: {fileID: 499316804, guid: ce5810458854f3b43aa605c6a3b45d65, type: 3}
-      propertyPath: _data._objectReferences.Array.data[11]
-      value: 
-      objectReference: {fileID: 1039857043}
     - target: {fileID: 5003562622915202340, guid: ce5810458854f3b43aa605c6a3b45d65,
         type: 3}
       propertyPath: m_Pivot.x
@@ -6239,7 +6187,7 @@ Transform:
   - {fileID: 494354191}
   - {fileID: 2095599031}
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -27.973}
 --- !u!43 &1316364673
 Mesh:
@@ -8068,7 +8016,7 @@ Transform:
   - {fileID: 1127079784}
   - {fileID: 1021413609}
   m_Father: {fileID: 0}
-  m_RootOrder: 16
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 26.094}
 --- !u!43 &1721668307
 Mesh:
@@ -8758,7 +8706,7 @@ PrefabInstance:
     - target: {fileID: 7857284077456324985, guid: 93657a87a54349a4eb9a07370613f287,
         type: 3}
       propertyPath: m_RootOrder
-      value: 15
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 7857284077456324985, guid: 93657a87a54349a4eb9a07370613f287,
         type: 3}
