@@ -135,7 +135,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh75418
+  m_Name: pb_Mesh151816
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -300,7 +300,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh75510
+  m_Name: pb_Mesh151932
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -639,11 +639,9 @@ GameObject:
   - component: {fileID: 234345058}
   - component: {fileID: 234345057}
   - component: {fileID: 234345056}
-  - component: {fileID: 234345062}
-  - component: {fileID: 234345063}
   m_Layer: 3
   m_Name: Arch (09)
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2545,60 +2543,6 @@ Transform:
   m_Father: {fileID: 1603041799}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -7.332}
---- !u!114 &234345062
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 234345055}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9bc9a024b33494b4b8866cc61049da81, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gameObjectsToEnable:
-  - {fileID: 183217728}
-  useTag: 1
-  tagName: Player
-  onlyOnce: 0
-  disableInstead: 1
-  displayDebugInfo: 0
-  revertOn: 4
-  revertAfterCooldown: 1
-  requireResources: 0
-  resourceManager: {fileID: 0}
-  resourceID: 
-  resourceCostOnUse: 1
-  requireInput: 0
-  inputName: Case Sensitive
---- !u!114 &234345063
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 234345055}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9bc9a024b33494b4b8866cc61049da81, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gameObjectsToEnable:
-  - {fileID: 48550234}
-  useTag: 1
-  tagName: Player
-  onlyOnce: 0
-  disableInstead: 0
-  displayDebugInfo: 0
-  revertOn: 4
-  revertAfterCooldown: 1
-  requireResources: 0
-  resourceManager: {fileID: 0}
-  resourceID: 
-  resourceCostOnUse: 1
-  requireInput: 0
-  inputName: Case Sensitive
 --- !u!1 &235184862
 GameObject:
   m_ObjectHideFlags: 0
@@ -2613,11 +2557,9 @@ GameObject:
   - component: {fileID: 235184865}
   - component: {fileID: 235184864}
   - component: {fileID: 235184863}
-  - component: {fileID: 235184869}
-  - component: {fileID: 235184870}
   m_Layer: 3
   m_Name: Arch (07)
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4519,67 +4461,13 @@ Transform:
   m_Father: {fileID: 1603041799}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -7.332}
---- !u!114 &235184869
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 235184862}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9bc9a024b33494b4b8866cc61049da81, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gameObjectsToEnable:
-  - {fileID: 183217728}
-  useTag: 1
-  tagName: Player
-  onlyOnce: 0
-  disableInstead: 1
-  displayDebugInfo: 0
-  revertOn: 4
-  revertAfterCooldown: 1
-  requireResources: 0
-  resourceManager: {fileID: 0}
-  resourceID: 
-  resourceCostOnUse: 1
-  requireInput: 0
-  inputName: Case Sensitive
---- !u!114 &235184870
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 235184862}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9bc9a024b33494b4b8866cc61049da81, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gameObjectsToEnable:
-  - {fileID: 48550234}
-  useTag: 1
-  tagName: Player
-  onlyOnce: 0
-  disableInstead: 0
-  displayDebugInfo: 0
-  revertOn: 4
-  revertAfterCooldown: 1
-  requireResources: 0
-  resourceManager: {fileID: 0}
-  resourceID: 
-  resourceCostOnUse: 1
-  requireInput: 0
-  inputName: Case Sensitive
 --- !u!43 &317687170
 Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh75300
+  m_Name: pb_Mesh151660
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -4750,7 +4638,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh75314
+  m_Name: pb_Mesh151678
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -4915,7 +4803,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh75388
+  m_Name: pb_Mesh151774
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -5082,6 +4970,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 927757792, guid: 798b84efcf9f0d3488fb12fe73d138b9, type: 3}
+      propertyPath: _data._objectReferences.Array.data[3]
+      value: 
+      objectReference: {fileID: 48550234}
     - target: {fileID: 5487911323186745025, guid: 798b84efcf9f0d3488fb12fe73d138b9,
         type: 3}
       propertyPath: m_Name
@@ -5153,7 +5045,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh75432
+  m_Name: pb_Mesh151834
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -5318,7 +5210,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh75402
+  m_Name: pb_Mesh151796
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -5483,7 +5375,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh75462
+  m_Name: pb_Mesh151874
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -5777,13 +5669,24 @@ PrefabInstance:
         UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Next
         Level","value":{"$content":7,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.UI.Button,
         UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Next
-        Scene","value":{"$content":"Level 4","$type":"System.String"},"typeHandle":{"Identification":"System.String,
+        Scene","value":{"$content":"Level 2","$type":"System.String"},"typeHandle":{"Identification":"System.String,
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Lose
         Retry","value":{"$content":8,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.UI.Button,
         UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Lose
         Exit","value":{"$content":9,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.UI.Button,
-        UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+        UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Player","value":{"$content":10,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Level
+        Loose","value":{"$content":11,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
+    - target: {fileID: 499316804, guid: ce5810458854f3b43aa605c6a3b45d65, type: 3}
+      propertyPath: _data._objectReferences.Array.size
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 499316804, guid: ce5810458854f3b43aa605c6a3b45d65, type: 3}
+      propertyPath: _data._objectReferences.Array.data[10]
+      value: 
+      objectReference: {fileID: 183217728}
     - target: {fileID: 5003562622915202340, guid: ce5810458854f3b43aa605c6a3b45d65,
         type: 3}
       propertyPath: m_Pivot.x
@@ -5894,27 +5797,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: UI
       objectReference: {fileID: 0}
-    - target: {fileID: 5003562622915202347, guid: ce5810458854f3b43aa605c6a3b45d65,
-        type: 3}
-      propertyPath: m_Camera
-      value: 
-      objectReference: {fileID: 217251569}
-    - target: {fileID: 5003562622915202347, guid: ce5810458854f3b43aa605c6a3b45d65,
-        type: 3}
-      propertyPath: m_RenderMode
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5003562623829600353, guid: ce5810458854f3b43aa605c6a3b45d65,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9015576666809055584, guid: ce5810458854f3b43aa605c6a3b45d65,
-        type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: e79f8d0ef19b90a49a20ddcb33dc9db7,
-        type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5934,11 +5816,9 @@ GameObject:
   - component: {fileID: 948445075}
   - component: {fileID: 948445074}
   - component: {fileID: 948445073}
-  - component: {fileID: 948445079}
-  - component: {fileID: 948445080}
   m_Layer: 3
   m_Name: Arch (4)
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7840,60 +7720,6 @@ Transform:
   m_Father: {fileID: 1603041799}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -7.332}
---- !u!114 &948445079
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 948445072}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9bc9a024b33494b4b8866cc61049da81, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gameObjectsToEnable:
-  - {fileID: 183217728}
-  useTag: 1
-  tagName: Player
-  onlyOnce: 0
-  disableInstead: 1
-  displayDebugInfo: 0
-  revertOn: 4
-  revertAfterCooldown: 1
-  requireResources: 0
-  resourceManager: {fileID: 0}
-  resourceID: 
-  resourceCostOnUse: 1
-  requireInput: 0
-  inputName: Case Sensitive
---- !u!114 &948445080
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 948445072}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9bc9a024b33494b4b8866cc61049da81, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gameObjectsToEnable:
-  - {fileID: 48550234}
-  useTag: 1
-  tagName: Player
-  onlyOnce: 0
-  disableInstead: 0
-  displayDebugInfo: 0
-  revertOn: 4
-  revertAfterCooldown: 1
-  requireResources: 0
-  resourceManager: {fileID: 0}
-  resourceID: 
-  resourceCostOnUse: 1
-  requireInput: 0
-  inputName: Case Sensitive
 --- !u!1 &994145236
 GameObject:
   m_ObjectHideFlags: 0
@@ -7908,11 +7734,9 @@ GameObject:
   - component: {fileID: 994145239}
   - component: {fileID: 994145238}
   - component: {fileID: 994145237}
-  - component: {fileID: 994145243}
-  - component: {fileID: 994145244}
   m_Layer: 3
   m_Name: Cube (1)
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9568,60 +9392,6 @@ Transform:
   m_Father: {fileID: 1603041799}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &994145243
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 994145236}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9bc9a024b33494b4b8866cc61049da81, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gameObjectsToEnable:
-  - {fileID: 183217728}
-  useTag: 1
-  tagName: Player
-  onlyOnce: 0
-  disableInstead: 1
-  displayDebugInfo: 0
-  revertOn: 4
-  revertAfterCooldown: 1
-  requireResources: 0
-  resourceManager: {fileID: 0}
-  resourceID: 
-  resourceCostOnUse: 1
-  requireInput: 0
-  inputName: Case Sensitive
---- !u!114 &994145244
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 994145236}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9bc9a024b33494b4b8866cc61049da81, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gameObjectsToEnable:
-  - {fileID: 48550234}
-  useTag: 1
-  tagName: Player
-  onlyOnce: 0
-  disableInstead: 0
-  displayDebugInfo: 0
-  revertOn: 4
-  revertAfterCooldown: 1
-  requireResources: 0
-  resourceManager: {fileID: 0}
-  resourceID: 
-  resourceCostOnUse: 1
-  requireInput: 0
-  inputName: Case Sensitive
 --- !u!1 &1036798802
 GameObject:
   m_ObjectHideFlags: 0
@@ -9746,7 +9516,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh75338
+  m_Name: pb_Mesh151706
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -9919,11 +9689,9 @@ GameObject:
   - component: {fileID: 1061677057}
   - component: {fileID: 1061677056}
   - component: {fileID: 1061677055}
-  - component: {fileID: 1061677061}
-  - component: {fileID: 1061677062}
   m_Layer: 3
   m_Name: Arch (08)
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11825,60 +11593,6 @@ Transform:
   m_Father: {fileID: 1603041799}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -7.332}
---- !u!114 &1061677061
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1061677054}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9bc9a024b33494b4b8866cc61049da81, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gameObjectsToEnable:
-  - {fileID: 183217728}
-  useTag: 1
-  tagName: Player
-  onlyOnce: 0
-  disableInstead: 1
-  displayDebugInfo: 0
-  revertOn: 4
-  revertAfterCooldown: 1
-  requireResources: 0
-  resourceManager: {fileID: 0}
-  resourceID: 
-  resourceCostOnUse: 1
-  requireInput: 0
-  inputName: Case Sensitive
---- !u!114 &1061677062
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1061677054}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9bc9a024b33494b4b8866cc61049da81, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gameObjectsToEnable:
-  - {fileID: 48550234}
-  useTag: 1
-  tagName: Player
-  onlyOnce: 0
-  disableInstead: 0
-  displayDebugInfo: 0
-  revertOn: 4
-  revertAfterCooldown: 1
-  requireResources: 0
-  resourceManager: {fileID: 0}
-  resourceID: 
-  resourceCostOnUse: 1
-  requireInput: 0
-  inputName: Case Sensitive
 --- !u!1 &1109864629
 GameObject:
   m_ObjectHideFlags: 0
@@ -11893,11 +11607,9 @@ GameObject:
   - component: {fileID: 1109864632}
   - component: {fileID: 1109864631}
   - component: {fileID: 1109864630}
-  - component: {fileID: 1109864636}
-  - component: {fileID: 1109864637}
   m_Layer: 0
   m_Name: Cube (3)
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12233,60 +11945,6 @@ Transform:
   m_Father: {fileID: 1603041799}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1109864636
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1109864629}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9bc9a024b33494b4b8866cc61049da81, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gameObjectsToEnable:
-  - {fileID: 183217728}
-  useTag: 1
-  tagName: Player
-  onlyOnce: 0
-  disableInstead: 1
-  displayDebugInfo: 0
-  revertOn: 4
-  revertAfterCooldown: 1
-  requireResources: 0
-  resourceManager: {fileID: 0}
-  resourceID: 
-  resourceCostOnUse: 1
-  requireInput: 0
-  inputName: Case Sensitive
---- !u!114 &1109864637
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1109864629}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9bc9a024b33494b4b8866cc61049da81, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gameObjectsToEnable:
-  - {fileID: 48550234}
-  useTag: 1
-  tagName: Player
-  onlyOnce: 0
-  disableInstead: 0
-  displayDebugInfo: 0
-  revertOn: 4
-  revertAfterCooldown: 1
-  requireResources: 0
-  resourceManager: {fileID: 0}
-  resourceID: 
-  resourceCostOnUse: 1
-  requireInput: 0
-  inputName: Case Sensitive
 --- !u!1 &1222199245
 GameObject:
   m_ObjectHideFlags: 0
@@ -12301,11 +11959,9 @@ GameObject:
   - component: {fileID: 1222199248}
   - component: {fileID: 1222199247}
   - component: {fileID: 1222199246}
-  - component: {fileID: 1222199252}
-  - component: {fileID: 1222199253}
   m_Layer: 3
   m_Name: Arch
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14207,60 +13863,6 @@ Transform:
   m_Father: {fileID: 1603041799}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -7.332}
---- !u!114 &1222199252
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1222199245}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9bc9a024b33494b4b8866cc61049da81, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gameObjectsToEnable:
-  - {fileID: 183217728}
-  useTag: 1
-  tagName: Player
-  onlyOnce: 0
-  disableInstead: 1
-  displayDebugInfo: 0
-  revertOn: 4
-  revertAfterCooldown: 1
-  requireResources: 0
-  resourceManager: {fileID: 0}
-  resourceID: 
-  resourceCostOnUse: 1
-  requireInput: 0
-  inputName: Case Sensitive
---- !u!114 &1222199253
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1222199245}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9bc9a024b33494b4b8866cc61049da81, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gameObjectsToEnable:
-  - {fileID: 48550234}
-  useTag: 1
-  tagName: Player
-  onlyOnce: 0
-  disableInstead: 0
-  displayDebugInfo: 0
-  revertOn: 4
-  revertAfterCooldown: 1
-  requireResources: 0
-  resourceManager: {fileID: 0}
-  resourceID: 
-  resourceCostOnUse: 1
-  requireInput: 0
-  inputName: Case Sensitive
 --- !u!1 &1276555571
 GameObject:
   m_ObjectHideFlags: 0
@@ -14378,7 +13980,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh75478
+  m_Name: pb_Mesh151892
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -14543,7 +14145,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh75352
+  m_Name: pb_Mesh151724
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -14708,7 +14310,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh75448
+  m_Name: pb_Mesh151856
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -14881,11 +14483,9 @@ GameObject:
   - component: {fileID: 1501877606}
   - component: {fileID: 1501877605}
   - component: {fileID: 1501877604}
-  - component: {fileID: 1501877610}
-  - component: {fileID: 1501877611}
   m_Layer: 3
   m_Name: Arch (3)
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16787,60 +16387,6 @@ Transform:
   m_Father: {fileID: 1603041799}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -7.332}
---- !u!114 &1501877610
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1501877603}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9bc9a024b33494b4b8866cc61049da81, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gameObjectsToEnable:
-  - {fileID: 183217728}
-  useTag: 1
-  tagName: Player
-  onlyOnce: 0
-  disableInstead: 1
-  displayDebugInfo: 0
-  revertOn: 4
-  revertAfterCooldown: 1
-  requireResources: 0
-  resourceManager: {fileID: 0}
-  resourceID: 
-  resourceCostOnUse: 1
-  requireInput: 0
-  inputName: Case Sensitive
---- !u!114 &1501877611
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1501877603}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9bc9a024b33494b4b8866cc61049da81, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gameObjectsToEnable:
-  - {fileID: 48550234}
-  useTag: 1
-  tagName: Player
-  onlyOnce: 0
-  disableInstead: 0
-  displayDebugInfo: 0
-  revertOn: 4
-  revertAfterCooldown: 1
-  requireResources: 0
-  resourceManager: {fileID: 0}
-  resourceID: 
-  resourceCostOnUse: 1
-  requireInput: 0
-  inputName: Case Sensitive
 --- !u!1 &1603041798
 GameObject:
   m_ObjectHideFlags: 0
@@ -16902,11 +16448,9 @@ GameObject:
   - component: {fileID: 1652229887}
   - component: {fileID: 1652229886}
   - component: {fileID: 1652229885}
-  - component: {fileID: 1652229891}
-  - component: {fileID: 1652229892}
   m_Layer: 0
   m_Name: Cube (5)
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17242,67 +16786,13 @@ Transform:
   m_Father: {fileID: 1603041799}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1652229891
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1652229884}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9bc9a024b33494b4b8866cc61049da81, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gameObjectsToEnable:
-  - {fileID: 183217728}
-  useTag: 1
-  tagName: Player
-  onlyOnce: 0
-  disableInstead: 1
-  displayDebugInfo: 0
-  revertOn: 4
-  revertAfterCooldown: 1
-  requireResources: 0
-  resourceManager: {fileID: 0}
-  resourceID: 
-  resourceCostOnUse: 1
-  requireInput: 0
-  inputName: Case Sensitive
---- !u!114 &1652229892
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1652229884}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9bc9a024b33494b4b8866cc61049da81, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gameObjectsToEnable:
-  - {fileID: 48550234}
-  useTag: 1
-  tagName: Player
-  onlyOnce: 0
-  disableInstead: 0
-  displayDebugInfo: 0
-  revertOn: 4
-  revertAfterCooldown: 1
-  requireResources: 0
-  resourceManager: {fileID: 0}
-  resourceID: 
-  resourceCostOnUse: 1
-  requireInput: 0
-  inputName: Case Sensitive
 --- !u!43 &1690781244
 Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh75368
+  m_Name: pb_Mesh151742
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -17475,11 +16965,9 @@ GameObject:
   - component: {fileID: 1724153442}
   - component: {fileID: 1724153441}
   - component: {fileID: 1724153440}
-  - component: {fileID: 1724153446}
-  - component: {fileID: 1724153447}
   m_Layer: 3
   m_Name: Arch (2)
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19381,60 +18869,6 @@ Transform:
   m_Father: {fileID: 1603041799}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -7.332}
---- !u!114 &1724153446
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1724153439}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9bc9a024b33494b4b8866cc61049da81, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gameObjectsToEnable:
-  - {fileID: 183217728}
-  useTag: 1
-  tagName: Player
-  onlyOnce: 0
-  disableInstead: 1
-  displayDebugInfo: 0
-  revertOn: 4
-  revertAfterCooldown: 1
-  requireResources: 0
-  resourceManager: {fileID: 0}
-  resourceID: 
-  resourceCostOnUse: 1
-  requireInput: 0
-  inputName: Case Sensitive
---- !u!114 &1724153447
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1724153439}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9bc9a024b33494b4b8866cc61049da81, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gameObjectsToEnable:
-  - {fileID: 48550234}
-  useTag: 1
-  tagName: Player
-  onlyOnce: 0
-  disableInstead: 0
-  displayDebugInfo: 0
-  revertOn: 4
-  revertAfterCooldown: 1
-  requireResources: 0
-  resourceManager: {fileID: 0}
-  resourceID: 
-  resourceCostOnUse: 1
-  requireInput: 0
-  inputName: Case Sensitive
 --- !u!1 &1760321129
 GameObject:
   m_ObjectHideFlags: 0
@@ -19449,11 +18883,9 @@ GameObject:
   - component: {fileID: 1760321132}
   - component: {fileID: 1760321131}
   - component: {fileID: 1760321130}
-  - component: {fileID: 1760321136}
-  - component: {fileID: 1760321137}
   m_Layer: 0
   m_Name: Prism
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19752,60 +19184,6 @@ Transform:
   m_Father: {fileID: 1603041799}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -12.211}
---- !u!114 &1760321136
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1760321129}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9bc9a024b33494b4b8866cc61049da81, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gameObjectsToEnable:
-  - {fileID: 183217728}
-  useTag: 1
-  tagName: Player
-  onlyOnce: 0
-  disableInstead: 1
-  displayDebugInfo: 0
-  revertOn: 4
-  revertAfterCooldown: 1
-  requireResources: 0
-  resourceManager: {fileID: 0}
-  resourceID: 
-  resourceCostOnUse: 1
-  requireInput: 0
-  inputName: Case Sensitive
---- !u!114 &1760321137
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1760321129}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9bc9a024b33494b4b8866cc61049da81, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gameObjectsToEnable:
-  - {fileID: 48550234}
-  useTag: 1
-  tagName: Player
-  onlyOnce: 0
-  disableInstead: 0
-  displayDebugInfo: 0
-  revertOn: 4
-  revertAfterCooldown: 1
-  requireResources: 0
-  resourceManager: {fileID: 0}
-  resourceID: 
-  resourceCostOnUse: 1
-  requireInput: 0
-  inputName: Case Sensitive
 --- !u!1001 &1783711411
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19902,7 +19280,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh75230
+  m_Name: pb_Mesh151598
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -20075,11 +19453,9 @@ GameObject:
   - component: {fileID: 1906606246}
   - component: {fileID: 1906606245}
   - component: {fileID: 1906606244}
-  - component: {fileID: 1906606250}
-  - component: {fileID: 1906606251}
   m_Layer: 3
   m_Name: Arch (10)
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21981,60 +21357,6 @@ Transform:
   m_Father: {fileID: 1603041799}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -7.332}
---- !u!114 &1906606250
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1906606243}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9bc9a024b33494b4b8866cc61049da81, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gameObjectsToEnable:
-  - {fileID: 183217728}
-  useTag: 1
-  tagName: Player
-  onlyOnce: 0
-  disableInstead: 1
-  displayDebugInfo: 0
-  revertOn: 4
-  revertAfterCooldown: 1
-  requireResources: 0
-  resourceManager: {fileID: 0}
-  resourceID: 
-  resourceCostOnUse: 1
-  requireInput: 0
-  inputName: Case Sensitive
---- !u!114 &1906606251
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1906606243}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9bc9a024b33494b4b8866cc61049da81, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gameObjectsToEnable:
-  - {fileID: 48550234}
-  useTag: 1
-  tagName: Player
-  onlyOnce: 0
-  disableInstead: 0
-  displayDebugInfo: 0
-  revertOn: 4
-  revertAfterCooldown: 1
-  requireResources: 0
-  resourceManager: {fileID: 0}
-  resourceID: 
-  resourceCostOnUse: 1
-  requireInput: 0
-  inputName: Case Sensitive
 --- !u!1 &2000275251
 GameObject:
   m_ObjectHideFlags: 0
@@ -22049,11 +21371,9 @@ GameObject:
   - component: {fileID: 2000275254}
   - component: {fileID: 2000275253}
   - component: {fileID: 2000275252}
-  - component: {fileID: 2000275258}
-  - component: {fileID: 2000275259}
   m_Layer: 3
   m_Name: Arch (1)
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23955,60 +23275,6 @@ Transform:
   m_Father: {fileID: 1603041799}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -7.332}
---- !u!114 &2000275258
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2000275251}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9bc9a024b33494b4b8866cc61049da81, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gameObjectsToEnable:
-  - {fileID: 183217728}
-  useTag: 1
-  tagName: Player
-  onlyOnce: 0
-  disableInstead: 1
-  displayDebugInfo: 0
-  revertOn: 4
-  revertAfterCooldown: 1
-  requireResources: 0
-  resourceManager: {fileID: 0}
-  resourceID: 
-  resourceCostOnUse: 1
-  requireInput: 0
-  inputName: Case Sensitive
---- !u!114 &2000275259
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2000275251}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9bc9a024b33494b4b8866cc61049da81, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gameObjectsToEnable:
-  - {fileID: 48550234}
-  useTag: 1
-  tagName: Player
-  onlyOnce: 0
-  disableInstead: 0
-  displayDebugInfo: 0
-  revertOn: 4
-  revertAfterCooldown: 1
-  requireResources: 0
-  resourceManager: {fileID: 0}
-  resourceID: 
-  resourceCostOnUse: 1
-  requireInput: 0
-  inputName: Case Sensitive
 --- !u!1 &2049390436
 GameObject:
   m_ObjectHideFlags: 0
@@ -24023,11 +23289,9 @@ GameObject:
   - component: {fileID: 2049390439}
   - component: {fileID: 2049390438}
   - component: {fileID: 2049390437}
-  - component: {fileID: 2049390443}
-  - component: {fileID: 2049390444}
   m_Layer: 3
   m_Name: Arch (06)
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25929,67 +25193,13 @@ Transform:
   m_Father: {fileID: 1603041799}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -7.332}
---- !u!114 &2049390443
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2049390436}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9bc9a024b33494b4b8866cc61049da81, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gameObjectsToEnable:
-  - {fileID: 183217728}
-  useTag: 1
-  tagName: Player
-  onlyOnce: 0
-  disableInstead: 1
-  displayDebugInfo: 0
-  revertOn: 4
-  revertAfterCooldown: 1
-  requireResources: 0
-  resourceManager: {fileID: 0}
-  resourceID: 
-  resourceCostOnUse: 1
-  requireInput: 0
-  inputName: Case Sensitive
---- !u!114 &2049390444
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2049390436}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9bc9a024b33494b4b8866cc61049da81, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gameObjectsToEnable:
-  - {fileID: 48550234}
-  useTag: 1
-  tagName: Player
-  onlyOnce: 0
-  disableInstead: 0
-  displayDebugInfo: 0
-  revertOn: 4
-  revertAfterCooldown: 1
-  requireResources: 0
-  resourceManager: {fileID: 0}
-  resourceID: 
-  resourceCostOnUse: 1
-  requireInput: 0
-  inputName: Case Sensitive
 --- !u!43 &2061457366
 Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh75244
+  m_Name: pb_Mesh151616
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -26162,11 +25372,9 @@ GameObject:
   - component: {fileID: 2067137233}
   - component: {fileID: 2067137232}
   - component: {fileID: 2067137231}
-  - component: {fileID: 2067137237}
-  - component: {fileID: 2067137238}
   m_Layer: 3
   m_Name: Arch (05)
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28068,67 +27276,13 @@ Transform:
   m_Father: {fileID: 1603041799}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -7.332}
---- !u!114 &2067137237
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2067137230}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9bc9a024b33494b4b8866cc61049da81, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gameObjectsToEnable:
-  - {fileID: 183217728}
-  useTag: 1
-  tagName: Player
-  onlyOnce: 0
-  disableInstead: 1
-  displayDebugInfo: 0
-  revertOn: 4
-  revertAfterCooldown: 1
-  requireResources: 0
-  resourceManager: {fileID: 0}
-  resourceID: 
-  resourceCostOnUse: 1
-  requireInput: 0
-  inputName: Case Sensitive
---- !u!114 &2067137238
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2067137230}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9bc9a024b33494b4b8866cc61049da81, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gameObjectsToEnable:
-  - {fileID: 48550234}
-  useTag: 1
-  tagName: Player
-  onlyOnce: 0
-  disableInstead: 0
-  displayDebugInfo: 0
-  revertOn: 4
-  revertAfterCooldown: 1
-  requireResources: 0
-  resourceManager: {fileID: 0}
-  resourceID: 
-  resourceCostOnUse: 1
-  requireInput: 0
-  inputName: Case Sensitive
 --- !u!43 &2077727641
 Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh75494
+  m_Name: pb_Mesh151912
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -28301,11 +27455,9 @@ GameObject:
   - component: {fileID: 2130011530}
   - component: {fileID: 2130011529}
   - component: {fileID: 2130011528}
-  - component: {fileID: 2130011534}
-  - component: {fileID: 2130011535}
   m_Layer: 3
   m_Name: Arch (11)
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30207,57 +29359,3 @@ Transform:
   m_Father: {fileID: 1603041799}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -7.332}
---- !u!114 &2130011534
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2130011527}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9bc9a024b33494b4b8866cc61049da81, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gameObjectsToEnable:
-  - {fileID: 183217728}
-  useTag: 1
-  tagName: Player
-  onlyOnce: 0
-  disableInstead: 1
-  displayDebugInfo: 0
-  revertOn: 4
-  revertAfterCooldown: 1
-  requireResources: 0
-  resourceManager: {fileID: 0}
-  resourceID: 
-  resourceCostOnUse: 1
-  requireInput: 0
-  inputName: Case Sensitive
---- !u!114 &2130011535
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2130011527}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9bc9a024b33494b4b8866cc61049da81, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gameObjectsToEnable:
-  - {fileID: 48550234}
-  useTag: 1
-  tagName: Player
-  onlyOnce: 0
-  disableInstead: 0
-  displayDebugInfo: 0
-  revertOn: 4
-  revertAfterCooldown: 1
-  requireResources: 0
-  resourceManager: {fileID: 0}
-  resourceID: 
-  resourceCostOnUse: 1
-  requireInput: 0
-  inputName: Case Sensitive

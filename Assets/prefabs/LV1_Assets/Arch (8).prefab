@@ -14,6 +14,8 @@ GameObject:
   - component: {fileID: 5643136325210203421}
   - component: {fileID: 5643136325210203418}
   - component: {fileID: 5643136325210203419}
+  - component: {fileID: 2144565057}
+  - component: {fileID: 2144565058}
   m_Layer: 3
   m_Name: Arch (8)
   m_TagString: Untagged
@@ -28,7 +30,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5643136325210203417}
-  m_LocalRotation: {x: -0, y: -0, z: -0.12481372, w: 0.9921802}
+  m_LocalRotation: {x: 0, y: 0, z: -0.124813646, w: 0.99218017}
   m_LocalPosition: {x: -232.9, y: 35, z: 4.364521}
   m_LocalScale: {x: 2.5327513, y: -0.14660817, z: 1}
   m_ConstrainProportionsScale: 0
@@ -2528,7 +2530,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 3308
+  m_VersionIndex: 3311
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -2586,7 +2588,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 25a9fb42d361f46ad89221f6d301e96e, type: 2}
+  - {fileID: 2100000, guid: f77d55e52704dc240be7d4cd27eeba82, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2638,3 +2640,57 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!114 &2144565057
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5643136325210203417}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bc9a024b33494b4b8866cc61049da81, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameObjectsToEnable:
+  - {fileID: 0}
+  useTag: 1
+  tagName: Player
+  onlyOnce: 0
+  disableInstead: 1
+  displayDebugInfo: 0
+  revertOn: 4
+  revertAfterCooldown: 1
+  requireResources: 0
+  resourceManager: {fileID: 0}
+  resourceID: 
+  resourceCostOnUse: 1
+  requireInput: 0
+  inputName: Case Sensitive
+--- !u!114 &2144565058
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5643136325210203417}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bc9a024b33494b4b8866cc61049da81, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameObjectsToEnable:
+  - {fileID: 0}
+  useTag: 1
+  tagName: Player
+  onlyOnce: 0
+  disableInstead: 0
+  displayDebugInfo: 0
+  revertOn: 4
+  revertAfterCooldown: 1
+  requireResources: 0
+  resourceManager: {fileID: 0}
+  resourceID: 
+  resourceCostOnUse: 1
+  requireInput: 0
+  inputName: Case Sensitive
